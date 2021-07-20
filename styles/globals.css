@@ -6,11 +6,803 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
+@font-face {
+  font-family: "Hurme-Regular";
+  src: local('Hurme'), url("../fonts/Hurme Geometric Sans No.2/HurmeGeometricSans2.otf");
+}
+
+@font-face {
+  font-family: "Hurme-Bold";
+  src: local('Hurme'), url("../fonts/Hurme Geometric Sans No.2/HurmeGeometricSans2 Bold.otf");
+}
+
+.none {
+  display: none;
+}
+
+.noneImg {
+  display: none;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 
+.firstPart {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 3%;
+  position: relative;
+  background: linear-gradient(107.97deg, #A785FE 0%, #5777FF 100%);
+}
+.firstImage {
+  width: 20%;
+  position: relative;
+}
+
+.arrowBottomImage {
+  position: absolute;
+  width: 5%;
+  bottom: 0;
+  left: calc(54% - 100px);
+}
+.phoneImage {
+  position: absolute;
+  right: 13%;
+  top: 16%;
+  width: 22%;
+}
+
+.secondImage {
+  width: 30%;
+}
+
+.secondPart {
+  display: flex;
+  padding: 5%;
+  position: relative;
+  justify-content: space-around;
+}
+
+.secondPart h5 {
+  width: 65%;
+  margin: 0 auto;
+}
 * {
   box-sizing: border-box;
+}
+
+.text h3 {
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 45px;
+  line-height: 59px;
+  color: #615AF6;
+  font-weight: bold;
+}
+
+.text h3 span {
+  color: #A0D7FE;
+}
+
+.text h5 span {
+  color: #78A6FD;
+  font-weight: bold;
+  font-family: Hurme-Bold, sans-serif;
+}
+.text h5 {
+  font-family: Hurme-Regular, sans-serif;
+  font-size: 30px;
+  line-height: 39px;
+  color: #7C7C7C
+}
+
+.text {
+  text-align: center;
+  width: 45%;
+}
+
+.highlight {
+  background: linear-gradient(to top, #F5D732 50%, transparent 50%);
+  color: #7C7C7C!important;
+}
+
+
+.fuseeRouge {
+  width: 50%;
+  position: absolute;
+  left: 14%;
+  top: 37%;
+}
+
+.imgSelfie {
+  width: 45%;
+}
+
+.imgSelfie img {
+  width: 100%;
+}
+
+.thirdPart {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 45px -10px rgba(190, 190, 190, 0.35);
+  padding: 5%;
+}
+
+.selfieMom {
+  width: 45%;
+}
+
+
+.text h3 {
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 45px;
+  line-height: 59px;
+  color: #615AF6;
+  font-weight: bold;
+}
+
+.text h3 span {
+  color: #A0D7FE;
+}
+
+.text h5 span {
+  color: #78A6FD;
+  font-weight: bold;
+  font-family: Hurme-Bold, sans-serif;
+}
+.text h5 {
+  font-family: Hurme-Regular, sans-serif;
+  font-size: 30px;
+  line-height: 39px;
+  color: #7C7C7C
+}
+
+.text {
+  text-align: center;
+  width: 45%;
+}
+
+.bigText {
+  font-size: 40px;
+}
+
+.button {
+  background: #A785FE;
+  border: 2px solid #D0BEFF;
+  border-radius: 10px;
+}
+
+.button h5 {
+  color: white;
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.inscriptionButton {
+  background: #A785FE;
+  border-radius: 15px;
+  padding: 2% 2%;
+  display: inline-block;
+  border: 2px solid #D0BEFF;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.inscriptionButton h5 {
+  color: white;
+  line-height: 0;
+  text-align: center;
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.buttonContainer{
+  position: relative;
+}
+
+.imgInscription {
+  width: 70%;
+}
+
+.fourPart {
+  align-items: center;
+  background: #5488FF;
+  padding: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fourPart h2 {
+  color: #48FFF4;
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 45px;
+  line-height: 59px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 25px #497AEB;
+}
+
+.crown {
+  width: 10%;
+  margin: 0 auto;
+}
+
+
+.crownImg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fourPart h3 {
+  text-align: center;
+  color: white;
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 45px;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.fourPart h3 span {
+  background: linear-gradient(to top, #B95AE9 50%, transparent 50%);
+}
+
+.descriptionContainer {
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: white;
+  max-width: 50%;
+  font-family: Hurme-Regular, sans-serif;
+  margin: 0 auto;
+}
+
+.fatText {
+  color: white;
+  font-family: Hurme-Bold, sans-serif;
+}
+
+.pinkHighlight {
+  background: linear-gradient(to top, #B95AE9 50%, transparent 50%);
+}
+
+.revenuesText {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.firstArrow {
+  width: 50%;
+}
+
+.secondArrow {
+  width: 50%;
+}
+
+.photoMontage {
+  width: 50%;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.photoMontageImg {
+  width: 50%;
+  z-index: 3;
+  position: absolute;
+}
+
+.fivePart {
+  position: relative;
+  height: 1100px;
+}
+
+.firstArrow {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  z-index: 0;
+}
+
+.fivePart h3 {
+  font-family: Hurme-Bold, sans-serif;
+  color: #615AF6;
+  text-align: center;
+  font-size: 45px;
+}
+
+.fivePart h3 span {
+  color: #A0D7FE;
+}
+
+.fivePart h5{
+  font-family: Hurme-Regular, sans-serif;
+  color: #7C7C7C;
+  text-align: center;
+  font-size: 30px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.fivePart h5 span{
+  background: linear-gradient(to top, #F5D732 50%, transparent 50%);
+}
+
+.textPhotoMontage {
+  position: absolute;
+  left: 25%;
+  bottom: 5%;
+}
+.bientot h2 {
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 45px;
+  line-height: 59px;
+  color: white;
+}
+
+footer {
+  background: linear-gradient(180deg, #A785FE 0%, #5877FF 100%);
+  text-align: center;
+  padding: 5%;
+}
+
+.esper {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  color: #AAB8FF;
+  margin: 1% 5%
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer input {
+  background: #817EFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 5%;
+  margin: 1%;
+}
+
+input:focus {
+  outline: none;
+}
+footer input::placeholder {
+  color: white;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Hurme-Regular, sans-serif;
+}
+
+.bientot {
+  width: 45%;
+  margin-top: 15%;
+}
+.avis {
+  width: 45%;
+}
+.avis h3 {
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 59px;
+  font-family: Hurme-Bold, sans-serif;
+  color: white;
+}
+
+.avis h3 span {
+  color: #F7C89B;
+}
+
+.avis h5 {
+  color: white;
+  font-family: Hurme-Regular, sans-serif;
+  font-size: 30px;
+}
+
+.avis h5 span {
+  background: linear-gradient(to top, #48FFF4 50%, transparent 50%);
+}
+
+.play {
+  width: 30%;
+}
+
+.hat {
+  width: 20%;
+}
+
+.googlePlay {
+  width: 45%;
+  height: 20%;
+
+}
+
+.applePay {
+  width: 45%;
+  height: 20%;
+}
+
+.googleContainer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.photomontage2 {
+  position: absolute;
+  left: 25%;
+  top: -20%;
+  width: 50%;
+}
+.contactButton {
+  background: #A785FE;
+  border-radius: 15px;
+  padding: 5% 2%;
+  width: 50%;
+  border: 2px solid #D0BEFF;
+  margin: 5% auto
+}
+
+.premiers {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.premiersImg {
+  width: 100%;
+}
+.contactButton h5 {
+  color: white;
+  line-height: 0;
+  text-align: center;
+  font-family: Hurme-Bold, sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+
+@media screen and (min-width: 2100px){
+  .fivePart {
+    height: 1200px;
+  }
+}
+
+
+@media screen and (min-width: 2300px){
+  .fivePart {
+    height: 1300px;
+  }
+  .textPhotoMontage {
+    left: 26%;
+  }
+}
+
+@media screen and (min-width: 2400px){
+  .fivePart {
+    height: 1400px;
+  }
+  .textPhotoMontage {
+    left: 28%;
+  }
+}
+
+
+
+ @media screen and (max-width: 1930px){
+  .fuseeRouge {
+    top: 42%;
+  }
+   .photomontage2 {
+     top: -18%;
+   }
+}
+
+@media screen and (max-width: 1800px){
+  .fivePart {
+    height: 1000px;
+  }
+  .textPhotoMontage {
+    left: 19%;
+  }
+  .photomontage2 {
+    top: -18%;
+  }
+}
+
+
+@media screen and (max-width: 1700px){
+  .fuseeRouge {
+    top: 49%;
+  }
+  .phoneImage {
+    top: 14%;
+  }
+  .arrowBottomImage {
+    left: calc(56% - 100px);
+  }
+  .fivePart {
+    height: 950px;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  .fuseeRouge {
+    top: 60%;
+    left: 10%;
+  }
+  .secondPart h5 {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .inscriptionButton {
+    margin-left: 43%;
+    padding: 3% 3%;
+  }
+  .phoneImage {
+    top: 13%;
+  }
+  .arrowBottomImage {
+    left: calc(57% - 100px);
+  }
+  .fivePart {
+    height: 850px;
+  }
+  .textPhotoMontage {
+    left: 15%;
+  }
+  .photomontage2 {
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .fuseeRouge {
+    top: 60%;
+  }
+
+  .arrowBottomImage {
+    left: calc(58% - 100px);
+  }
+
+  .fivePart {
+    height: 830px;
+  }
+
+  .textPhotoMontage {
+    left: 13%;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .photomontage2 {
+    left: 11%;
+    width: 70%;
+  }
+  .fivePart {
+    height: 1100px;
+  }
+  .textPhotoMontage {
+    left: 8%;
+  }
+
+
+}
+@media screen and (max-width: 1250px){
+  .secondPart h5 {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .photomontage2 {
+    left: 11%;
+    width: 75%;
+  }
+  .arrowBottomImage {
+    left: calc(59% - 100px);
+  }
+  .text h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .text h5 {
+    font-size: 25px;
+  }
+  .inscriptionButton {
+    margin-left: 41%;
+    padding: 4% 4%;
+  }
+}
+
+
+@media screen and (max-width: 1150px){
+  .photomontage2 {
+    left: 4%;
+    width: 90%;
+  }
+  .textPhotoMontage {
+    left: 2%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .secondPart {
+    flex-direction: column;
+  }
+  .fivePart {
+    height: unset;
+    padding: 5%;
+  }
+  .textPhotoMontage {
+    position: unset;
+  }
+  .text {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column-reverse;
+  }
+  .bientot {
+    width: 100%;
+  }
+  .avis {
+    width: 100%;
+  }
+  .imgSelfie {
+    width: 100%;
+  }
+  .arrowBottomImage {
+    left: calc(60% - 100px);
+  }
+  .fuseeRouge {
+    display: none;
+  }
+  .noneImg {
+    display: block;
+    width: 100%;
+  }
+  .fivePart h5 {
+    max-width: 80%;
+  }
+  .selfieMom {
+    display: none;
+  }
+  .descriptionContainer {
+    max-width: 100%;
+  }
+  .photomontage2 {
+    display: none;
+  }
+  .fourPart h2 {
+    text-transform: lowercase;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .inscriptionButton {
+    margin-left: 38%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .inscriptionButton {
+    margin-left: 32%;
+    padding: 5% 5%;
+  }
+  .text h5 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .descriptionContainer {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .text h3 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  .bigText {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  .fourPart h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .googleContainer {
+    width: 80%;
+  }
+  .crown {
+    width: 40%;
+  }
+  .fivePart h5 {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .inscriptionButton {
+    margin-left: 28%;
+  }
+  .firstImage, .secondImage, .phoneImage{
+    display: none;
+  }
+  .none {
+    display: block;
+    width: 100%;
+  }
+  .fivePart h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .fivePart h5 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .premiers {
+    display: none;
+  }
+  .contactButton {
+    padding: 8% 2%;
+  }
+  .revenuesText {
+    max-width: 80%;
+  }
+  .inscriptionButton {
+    margin-left: 32%;
+  }
+  .firstPart {
+    background: white;
+    padding: 0;
+  }
+  .googleContainer {
+    width: 85%;
+  }
+  .avis h5 {
+    font-size: 17px;
+  }
+  .avis h3 {
+    font-size: 26px;
+  }
+  .bientot h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .inscriptionButton {
+    margin-left: 29%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .inscriptionButton {
+    margin-left: 27%;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .inscriptionButton {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .inscriptionButton {
+    margin-left: 23%;
+  }
 }
