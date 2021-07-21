@@ -125,14 +125,6 @@
   position: absolute;
 }
 
-@media screen and (max-width: 1999px){
-  .middle {
-    top: 25%;
-  }
-  .arrowsImg {
-    top: 55%
-  }
-}
 
 
 @media screen and (max-width: 1900px){
