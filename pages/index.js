@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
@@ -18,7 +17,17 @@ export default function Home() {
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
         <img src={'/fourColumn.png'} alt="" className='firstImage'/>
-        <img src={'/phone3.png'} alt="" className='phoneImage'/>
+        <div className="phoneImage">
+          <img src={'/iPhone.png'} alt="" className="phoneImage"/>
+            <ReactPlayer
+              url={'/video.mp4'}
+              className="video-presentation"
+              playing={true}
+              height="900px"
+              muted
+              loop
+            />
+          </div>
         <img src={'/arrowBottom.png'} alt="" className='arrowBottomImage'/>
       </div>
 

@@ -60,9 +60,10 @@ a {
   bottom: 0;
   left: calc(54% - 100px);
 }
+
 .phoneImage {
   position: absolute;
-  right: 13%;
+  right: 16%;
   top: 16%;
   width: 22%;
 }
@@ -399,6 +400,22 @@ footer input::placeholder {
 .avis {
   width: 45%;
 }
+
+.videoMidContainer {
+  position: absolute;
+  right: 13%;
+  top: 16%;
+  z-index: 2;
+  width: 22%;
+}
+
+.video-presentation video {
+  height: 100%!important;
+  width: unset!important;
+  border-radius: 20px;
+}
+
+
 .avis h3 {
   font-weight: 900;
   font-size: 45px;
