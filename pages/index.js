@@ -36,14 +36,8 @@ export default function Home() {
       </Head>
 
       <div className="firstPart">
-        <ReactPlayer
-          url={'/video.mp4'}
-          className="video-presentation none"
-          playing={true}
-          height="900px"
-          muted
-          loop
-        />
+        <video src={'/video.mp4'} className="video-presentation none" autoPlay muted/>
+
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
