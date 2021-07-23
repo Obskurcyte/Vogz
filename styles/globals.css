@@ -295,6 +295,15 @@ a {
   width: 50%;
 }
 
+.nonEnvoye {
+  display: none;
+}
+
+.textEnvoye{
+  color: white;
+  font-size: 20px;
+  font-family: Hurme-Regular, sans-serif;
+}
 .secondArrow {
   width: 50%;
 }

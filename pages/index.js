@@ -23,6 +23,7 @@ export default function Home() {
     phone: Yup.string().matches(/^0[1-7]{1}(([0-9]{2}){4})|((\s[0-9]{2}){4})|((-[0-9]{2}){4})$/, "Entrez un numéro valide")
   });
 
+  const [envoyer, setEnvoyer] = useState(false);
 
   const reRef = useRef();
 
@@ -36,12 +37,14 @@ export default function Home() {
       </Head>
 
       <div className="firstPart">
+
         <video src={'/video.mp4'} className="video-presentation none" autoPlay muted/>
 
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
         <img src={'/fourColumn.png'} alt="" className='firstImage'/>
+
 
         <div className="device device-iphone-x" id="picture">
           <div className="device-frame">
@@ -161,6 +164,7 @@ export default function Home() {
                   const token = await reRef.current.executeAsync();
                   reRef.current.reset();
 
+                  setEnvoyer(true)
                   try {
                     await axios.post('/api/send-email', {
                       values,
@@ -211,6 +215,7 @@ export default function Home() {
                     <div className="contactButton" onClick={props.handleSubmit}>
                       <h5 className='inscriptionText'>ENVOYER</h5>
                     </div>
+                    <p className={envoyer ? 'textEnvoye' : 'nonEnvoye'}>Merci pour votre participation, un membre de l'équipe vous contacte dès que possible</p>
                   </form>
                 )}
 
