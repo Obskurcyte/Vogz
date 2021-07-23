@@ -16,3 +16,20 @@
   padding-top: 1%;
   box-shadow: 0px 4px 15px rgba(235, 235, 235, 0.5);
 }
+
+.img-header-container {
+  width: 8%;
+  margin: 0 auto;
+}
+
+.img-header-container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 650px){
+
+  .img-header-container {
+    width: 20%;
+    margin: 0 auto;
+  }
+}

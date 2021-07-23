@@ -10,17 +10,23 @@
   display: none;
 }
 
+.left img {
+  width: 65%;
+}
+
 .arrowMobileBlue {
   display: none;
 }
 
 .left {
   width: 50%;
-  padding-left: 0%;
+  padding-left: 5%;
   z-index: 1;
+  padding-top: 3%;
   position: relative;
   background: linear-gradient(149.71deg, #A785FE 0%, #5777FF 100%);
 }
+
 
 .right {
   width: 50%;
@@ -35,8 +41,6 @@
   font-family: Hurme-Bold, sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: #5777FF;
-
 }
 
 .be-vogzter {
@@ -46,6 +50,7 @@
   bottom: 3%;
   left: 22%;
   width: 40%;
+  color: #5777FF;
   text-align: center;
   cursor: pointer;
 }
@@ -56,19 +61,33 @@
   position: absolute;
   border-radius: 10px;
   bottom: 3%;
-  left: 33%;
+  left: 35%;
   width: 40%;
 
+  color: white;
   text-align: center;
   cursor: pointer;
 }
 
-.be-marque p {
+
+.be-vogzter:hover {
+  background-color: #5777FF;
   color: white;
+}
+.be-marque:hover {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  color: #5777FF;
+}
+
+.be-marque p {
   font-family: Hurme-Bold, sans-serif;
   font-size: 20px;
   line-height: 20px;
 }
+
 
 .middle {
   width: 20%;
@@ -105,10 +124,17 @@
 }
 
 .vogzLogo {
-  width: 30%;
+  width: 15%;
   margin: 0 auto;
 }
 
+.right img {
+  width: 70%;
+}
+
+.right {
+  padding-left: 15%;
+}
 .vogzLogoImg {
   width: 100%;
 }
@@ -154,7 +180,7 @@
 
 @media screen and (max-width: 1500px){
   .left {
-    padding-left: 0%;
+    padding-left: 5%;
     padding-top: 5%;
   }
   .middle {
@@ -163,21 +189,21 @@
     top: 15%;
   }
   .left img {
-    width: 80%;
+    width: 70%;
   }
   .be-vogzter {
-    left: 18%;
+    left: 20%;
     bottom: 1%;
   }
   .right img {
-    width: 90%;
+    width: 80%;
   }
   .be-marque {
     left: 40%;
     bottom: 1%;
   }
   .right {
-    padding-top: 3%;
+    padding-top: 5%;
   }
 }
 
@@ -188,21 +214,24 @@
     top: 15%;
   }
   .be-vogzter {
-    left: 18%;
+    left: 22%;
     bottom: 1%;
   }
   .be-marque {
-    left: 37%;
+    left: 39%;
     bottom: 1%;
   }
+  .left img {
+    width: 75%;
+  }
   .right img {
-    width: 90%;
+    width: 85%;
   }
 }
 
 @media screen and (max-width: 1200px){
   .arrowsImg {
-    top: 50%;
+    top: 60%;
   }
   .middle h5 {
     font-size: 25px;
@@ -213,7 +242,19 @@
   }
   .be-marque {
     width: 50%;
-    left: 32%;
+    left: 34%;
+  }
+  .left img {
+    width: 85%;
+  }
+  .left {
+    padding-left: 0;
+  }
+  .right img {
+    width: 100%;
+  }
+  .right {
+    padding-left: 10%;
   }
   .be-vogzter {
     width: 50%;
@@ -221,7 +262,7 @@
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 950px){
   .left img {
     width: 70%;
   }
@@ -358,7 +399,7 @@
 
   .middle {
     width: 70%;
-    top: 95%;
+    top: 90%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -368,7 +409,7 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 120%;
+    top: 110%;
     left: 9%;
   }
   .arrowMobileWhite {
@@ -383,7 +424,7 @@
 @media screen and (max-width: 520px){
 
   .middle {
-    top: 90%;
+    top: 85%;
   }
 
   .arrowMobileBlue {
@@ -400,11 +441,14 @@
 
   .middle {
     width: 70%;
-    top: 85%;
+    top: 82%;
   }
 
+  .be-marque {
+    top: 20%;
+  }
   .arrowMobileBlue {
-    top: 110%;
+    top: 103%;
     left: 8%;
   }
   .arrowMobileWhite {
@@ -417,11 +461,11 @@
 
   .middle {
     width: 70%;
-    top: 80%;
+    top: 78%;
   }
 
   .arrowMobileBlue {
-    top: 105%;
+    top: 100%;
     left: 8%;
   }
   .arrowMobileWhite {
@@ -430,22 +474,6 @@
   }
 }
 
-@media screen and (max-width: 450px){
-
-  .middle {
-    width: 70%;
-    top: 75%;
-  }
-
-  .arrowMobileBlue {
-    top: 100%;
-    left: 7%;
-  }
-  .arrowMobileWhite {
-    top: 65%;
-    right: 10%;
-  }
-}
 
 
 @media screen and (max-width: 450px){
@@ -455,8 +483,18 @@
     top: 73%;
   }
 
+  .be-vogzter p {
+    margin-top: 5% !important;
+  }
+
+  .be-marque {
+    top: 21%;
+  }
+  .be-marque p {
+    margin-top: 5% !important;
+  }
   .arrowMobileBlue {
-    top: 100%;
+    top: 90%;
     left: 7%;
   }
   .arrowMobileWhite {
@@ -465,21 +503,36 @@
   }
 }
 
+@media screen and (max-width: 430px){
+  .middle {
+    width: 70%;
+    top: 69%;
+  }
+
+  .arrowMobileBlue {
+    top: 90%;
+    left: 6%;
+  }
+  .arrowMobileWhite {
+    top: 57%;
+    right: 8%;
+  }
+}
 
 @media screen and (max-width: 410px){
 
   .middle {
     width: 70%;
-    top: 70%;
+    top: 65%;
   }
 
   .arrowMobileBlue {
-    top: 95%;
+    top: 85%;
     left: 6%;
   }
   .arrowMobileWhite {
-    top: 60%;
-    right: 10%;
+    top: 57%;
+    right: 8%;
   }
 }
 
@@ -488,22 +541,22 @@
 
   .middle {
     width: 70%;
-    top: 67%;
+    top: 60%;
   }
 
   .arrowMobileBlue {
-    top: 90%;
+    top: 83%;
     left: 6%;
   }
   .arrowMobileWhite {
-    top: 58%;
+    top: 50%;
     right: 10%;
   }
   .right {
     padding-top: 65%;
   }
   .be-marque {
-    top: 25%;
+    top: 23%;
   }
 }
 
@@ -511,22 +564,19 @@
 
   .middle {
     width: 70%;
-    top: 62%;
+    top: 56%;
   }
 
   .arrowMobileBlue {
-    top: 85%;
+    top: 76%;
     left: 6%;
   }
   .arrowMobileWhite {
-    top: 53%;
-    right: 10%;
+    top: 48%;
+    right: 6%;
   }
   .right {
     padding-top: 65%;
-  }
-  .be-marque {
-    top: 25%;
   }
 }
 
@@ -534,7 +584,7 @@
 
   .middle {
     width: 70%;
-    top: 58%;
+    top: 52%;
   }
 
   .arrowMobileBlue {
@@ -542,7 +592,7 @@
     left: 5%;
   }
   .arrowMobileWhite {
-    top: 51%;
+    top: 45%;
     right: 8%;
   }
   .right {
