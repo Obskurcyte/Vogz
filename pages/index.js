@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className="firstPart">
 
-        <video src={'/video.mp4'} className="video-presentation none" autoPlay muted playsInline/>
+        <video src={'/video.mp4'} className="video-presentation none" muted playsInline/>
 
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
