@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className="firstPart">
 
-        <video src={'/video.mp4'} className="video-presentation none" autoPlay muted/>
+        <video src={'/video.mp4'} className="video-presentation none" autoPlay muted playsinline/>
 
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
@@ -163,7 +163,6 @@ export default function Home() {
                 onSubmit={async (values) => {
                   const token = await reRef.current.executeAsync();
                   reRef.current.reset();
-
                   setEnvoyer(true)
                   try {
                     await axios.post('/api/send-email', {
