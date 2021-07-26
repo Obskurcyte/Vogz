@@ -27,6 +27,8 @@ export default function Home() {
 
   const reRef = useRef();
 
+  const [videoReady, setVideoReady] = useState(false)
+  console.log(videoReady)
   return (
     <div>
       <Head>
@@ -38,7 +40,7 @@ export default function Home() {
 
       <div className="firstPart">
 
-        <div className="video-presentation none">
+        {videoReady ? <div className="video-presentation none">
           <ReactPlayer
             url={'/video.mp4'}
             className="video-presentation-inner"
@@ -46,28 +48,32 @@ export default function Home() {
             height="100%"
             width="100%"
             muted
+            onReady={() => setVideoReady(true)}
             playIcon={<img src={'/playIcon.png'} alt=""/>}
             controls={true}
             loop
           />
-        </div>
+        </div> : ''}
+
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
         <img src={'/fourColumn.png'} alt="" className='firstImage'/>
 
         <div className="video-presentation">
-        <ReactPlayer
-          url={'/video.mp4'}
-          className="video-presentation-inner"
-          playing={false}
-          height="100%"
-          width="100%"
-          muted
-          playIcon={<img src={'/playIcon.png'} alt=""/>}
-          controls={true}
-          loop
-        />
+          <ReactPlayer
+            url={'/video.mp4'}
+            className="video-presentation-inner"
+            playing={false}
+            height="100%"
+            width="100%"
+            muted
+            onReady={() => setVideoReady(true)}
+            playIcon={<img src={'/playIcon.png'} alt="" className="playIcon"/>}
+            controls={true}
+           // light={<div style={{height: '100%', width: '100%', backgroundColor: '#A885FF'}}/>}
+            loop
+          />
         </div>
 
         <Link activeClass="active" to="secondPart" spy={true} smooth={true}><img src={'/arrowBottom.png'} alt="" className='arrowBottomImage'/></Link>

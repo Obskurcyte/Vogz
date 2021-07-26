@@ -436,6 +436,15 @@ input:focus {
   width: 22%;
 }
 
+.playIcon {
+  margin: 150px;
+  border-radius: 20px;
+}
+.react-player__preview {
+  background-color: #A885FF!important;
+  width: 100%;
+  border-radius: 20px;
+}
 .video-presentation video {
   height: 100%!important;
   width: unset!important;
@@ -963,7 +972,6 @@ footer {
     width: 15% !important  ;
   }
   .none {
-    display: block;
     width: 100%;
   }
 
@@ -978,6 +986,10 @@ footer {
 
   .premiers {
     display: none;
+  }
+
+  .video-presentation {
+    position: unset;
   }
 
   .contactButton {
