@@ -44,7 +44,7 @@ export default function Home() {
           <ReactPlayer
             url={'/video.mp4'}
             className="video-presentation-inner"
-            playing={false}
+            playing={true}
             height="100%"
             width="100%"
             muted
@@ -64,7 +64,7 @@ export default function Home() {
           <ReactPlayer
             url={'/video.mp4'}
             className="video-presentation-inner"
-            playing={false}
+            playing={true}
             height="100%"
             width="100%"
             muted

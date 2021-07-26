@@ -455,9 +455,13 @@ input:focus {
   position: absolute;
   height: 75%;
   left: 60%;
+  max-width: 0%;
   top: 13%;
 }
 
+.video-presentation-inner {
+  max-width: 0!important;
+}
 
 .avis h3 {
   font-weight: 900;
