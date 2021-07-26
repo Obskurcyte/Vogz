@@ -205,6 +205,7 @@ a {
   width: 20%;
   margin: 5% auto;
   cursor: pointer ;
+  align-items: center;
 }
 
 .inscriptionButton h5 {
@@ -407,6 +408,11 @@ a {
 input:focus {
   outline: none;
 }
+
+.greySeparation {
+  background-color: #FCFCFC;
+  height: 40px;
+}
 .footer input::placeholder {
   color: white;
   font-size: 20px;
@@ -434,6 +440,13 @@ input:focus {
   height: 100%!important;
   width: unset!important;
   border-radius: 20px;
+}
+
+.video-presentation {
+  position: absolute;
+  height: 75%;
+  left: 60%;
+  top: 13%;
 }
 
 
@@ -607,9 +620,6 @@ footer {
   .phoneImage {
     top: 14%;
   }
-  .arrowBottomImage {
-    left: calc(56% - 100px);
-  }
   .fivePart {
     height: 950px;
   }
@@ -626,6 +636,7 @@ footer {
   }
   .secondPart h5 {
     width: 85%;
+
     margin: 0 auto;
   }
   .selfieMom {
@@ -633,9 +644,6 @@ footer {
   }
   .phoneImage {
     top: 13%;
-  }
-  .arrowBottomImage {
-    left: calc(57% - 100px);
   }
   .fivePart {
     height: 850px;
@@ -658,20 +666,52 @@ footer {
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1460px) {
 
 
-  .arrowBottomImage {
-    left: calc(58% - 100px);
+
+  .firstImage {
+    width: 19%;
   }
-
+  .secondImage {
+    width: 26%;
+  }
   .fivePart {
     height: 830px;
   }
 
-
+  .text h3 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .text h5 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .textPhotoMontage h5 {
+    font-size: 25px;
+  }
   .textPhotoMontage {
-    left: 13%;
+    left: 19%;
+  }
+
+
+  .selfieMom {
+    height: 45%;
+    width: 40%;
+  }
+  .avis h5 {
+    font-size: 30px;
+  }
+  .avis img {
+    width: 26%;
+  }
+  .video-presentation {
+    height: 71%;
+    left: 62%;
+  }
+  .avis h3 {
+    margin-bottom: 2%;
   }
 }
 
@@ -680,14 +720,11 @@ footer {
     left: 11%;
     width: 70%;
   }
-  .selfieMom {
-    width: 78%;
-  }
   .fivePart {
     height: 1100px;
   }
   .textPhotoMontage {
-    left: 8%;
+    left: 15%;
   }
   .revenuesText {
     max-width: 85%;
@@ -731,10 +768,18 @@ footer {
     width: 90%;
   }
   .textPhotoMontage {
-    left: 2%;
+    left: 11%;
   }
   .firstPart {
     height: 750px;
+  }
+  .text h3 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .text h5 {
+    font-size: 20px;
+    line-height: 29px;
   }
   .fuseeRouge {
     left: 0;
@@ -745,6 +790,11 @@ footer {
   }
 }
 
+@media screen and (max-width: 1050px){
+  .textPhotoMontage {
+    left: 9%;
+  }
+}
 @media screen and (max-width: 950px){
   .secondPart {
     flex-direction: column;

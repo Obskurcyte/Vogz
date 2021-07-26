@@ -20,7 +20,7 @@ const Home = () => {
             <img src={'/vogzLogo.png'} alt="" className="vogzLogoImg"/>
           </div>
           <h5>La nouvelle façon de communiquer</h5>
-          <p>Que vous soyez <span className="highlight">créateur de contenu</span> ou <span className="highlight">une marque, </span> <span className="blueText">VOGZ</span> est fait pour vous !</p>
+          <p>Que vous soyez <span className="highlight">créateur de contenu</span> ou <span className="highlight">une marque, </span> <span className="blueText">VOGZ</span> est fait pour <span className="highlight">vous !</span></p>
         </div>
 
         <img src={'/arrows.png'} alt="" className="arrowsImg"/>

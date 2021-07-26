@@ -38,18 +38,36 @@ export default function Home() {
 
       <div className="firstPart">
 
-        <video src={'/video.mp4'} className="video-presentation none" muted playsInline/>
-
+        <div className="video-presentation none">
+          <ReactPlayer
+            url={'/video.mp4'}
+            className="video-presentation-inner"
+            playing={false}
+            height="100%"
+            width="100%"
+            muted
+            playIcon={<img src={'/playIcon.png'} alt=""/>}
+            controls={true}
+            loop
+          />
+        </div>
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
         <img src={'/fourColumn.png'} alt="" className='firstImage'/>
 
-
-        <div className="device device-iphone-x" id="picture">
-          <div className="device-frame">
-            <video src={'/video.mp4'} className="device-content" autoPlay muted/>
-          </div>
+        <div className="video-presentation">
+        <ReactPlayer
+          url={'/video.mp4'}
+          className="video-presentation-inner"
+          playing={false}
+          height="100%"
+          width="100%"
+          muted
+          playIcon={<img src={'/playIcon.png'} alt=""/>}
+          controls={true}
+          loop
+        />
         </div>
 
         <Link activeClass="active" to="secondPart" spy={true} smooth={true}><img src={'/arrowBottom.png'} alt="" className='arrowBottomImage'/></Link>
@@ -58,7 +76,7 @@ export default function Home() {
       <div className="secondPart" id="secondPart">
         <div className="text">
           <h3>Tu es créateur de contenu et tu sais le rendre <span>captivant</span> et <span>original ?</span></h3>
-          <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue">VOGZ</span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
+          <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue">VOGZ<span style={{color: '#76DEFE'}}>*</span></span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
         </div>
 
         <img src={'/filConducteur.png'} alt="" className='filConducteur none'/>
@@ -91,6 +109,9 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="greySeparation">
+
+      </div>
       <div className="fourPart">
         <div className="crown">
           <img src={'/crown.png'} alt="" className='crownImg'/>
