@@ -373,7 +373,7 @@
 
   .middle {
     width: 70%;
-    top: 65%;
+    top: 107%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -392,13 +392,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 85%;
+    top: 140%;
     left: 9%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 60%;
+    top: 95%;
     right: 10%;
     position: absolute;
   }
@@ -413,7 +413,7 @@
 
   .middle {
     width: 70%;
-    top: 60%;
+    top: 100%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -423,13 +423,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 77%;
+    top: 130%;
     left: 9%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 55%;
+    top: 94%;
     right: 10%;
     position: absolute;
   }
@@ -440,7 +440,7 @@
 
   .middle {
     width: 70%;
-    top: 57%;
+    top: 94%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -450,13 +450,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 75%;
+    top: 120%;
     left: 9%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 53%;
+    top: 85%;
     right: 10%;
     position: absolute;
   }
@@ -466,7 +466,7 @@
 
   .middle {
     width: 70%;
-    top: 54%;
+    top: 89%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -476,13 +476,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 70%;
+    top: 115%;
     left: 9%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 50%;
+    top: 80%;
     right: 8%;
     position: absolute;
   }
@@ -492,7 +492,7 @@
 
   .middle {
     width: 70%;
-    top: 50%;
+    top: 85%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -502,13 +502,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 65%;
-    left: 9%;
+    top: 110%;
+    left: 7%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 45%;
+    top: 75%;
     right: 8%;
     position: absolute;
   }
@@ -518,7 +518,7 @@
 
   .middle {
     width: 70%;
-    top: 46%;
+    top: 80%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -528,13 +528,19 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 62%;
+    top: 107%;
     left: 7%;
+  }
+  .right   {
+    padding-top: 70%;
+  }
+  .be-marque {
+    top: 19%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 41%;
+    top: 70%;
     right: 8%;
     position: absolute;
   }
@@ -545,7 +551,7 @@
 
   .middle {
     width: 70%;
-    top: 44%;
+    top: 73%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -558,18 +564,18 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 62%;
+    top: 100%;
     left: 7%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 38%;
+    top: 65%;
     right: 8%;
     position: absolute;
   }
   .be-marque {
-    top: 17%;
+    top: 19%;
   }
 }
 
@@ -579,7 +585,7 @@
 
   .middle {
     width: 70%;
-    top: 42%;
+    top: 70%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -592,18 +598,18 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 57%;
+    top: 95%;
     left: 7%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 38%;
+    top: 60%;
     right: 8%;
     position: absolute;
   }
   .be-marque {
-    top: 17%;
+    top: 19%;
   }
 }
 
@@ -611,23 +617,26 @@
 
   .middle {
     width: 70%;
-    top: 40%;
+    top: 67%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
+  }
+  .right img {
+    margin-top: 5%;
   }
 
   .arrowMobileBlue {
     display: block;
     position: absolute;
     z-index: 5;
-    top: 54%;
-    left: 7%;
+    top: 93%;
+    left: 6%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 36%;
+    top: 58%;
     right: 8%;
     position: absolute;
   }
@@ -638,7 +647,7 @@
 
   .middle {
     width: 70%;
-    top: 38%;
+    top: 65%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -648,13 +657,13 @@
     display: block;
     position: absolute;
     z-index: 5;
-    top: 54%;
-    left: 7%;
+    top: 90%;
+    left: 6%;
   }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
-    top: 33%;
+    top: 55%;
     right: 8%;
     position: absolute;
   }
@@ -673,18 +682,18 @@
 
   .middle {
     width: 70%;
-    top: 36%;
+    top: 60%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
   }
 
   .arrowMobileBlue {
-    top: 50%;
+    top: 85%;
     left: 5%;
   }
   .arrowMobileWhite {
-    top: 31%;
+    top: 50%;
     right: 8%;
   }
 }
@@ -692,7 +701,7 @@
 @media screen and (max-width: 370px){
 
   .middle {
-    top: 34%;
+    top: 58%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -702,14 +711,14 @@
     padding-top:  80%;
   }
   .be-marque {
-    top: 23%;
+    top: 21%;
   }
   .arrowMobileBlue {
-    top: 48%;
+    top: 83%;
     left: 5%;
   }
   .arrowMobileWhite {
-    top: 30%;
+    top: 47%;
     right: 8%;
   }
 }
@@ -717,7 +726,7 @@
 @media screen and (max-width: 350px){
 
   .middle {
-    top: 32%;
+    top: 53%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
@@ -727,14 +736,14 @@
     padding-top:  80%;
   }
   .be-marque {
-    top: 23%;
+    top: 22%;
   }
   .arrowMobileBlue {
-    top: 48%;
+    top: 80%;
     left: 5%;
   }
   .arrowMobileWhite {
-    top: 30%;
+    top: 45%;
     right: 8%;
   }
 }

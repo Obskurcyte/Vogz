@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="firstPart">
 
-        {videoReady ? <div className="video-presentation none">
+       <div className="video-presentation none">
           <ReactPlayer
             url={'/video.mp4'}
             className="video-presentation-inner"
@@ -48,12 +48,12 @@ export default function Home() {
             height="100%"
             width="100%"
             muted
-            onReady={() => setVideoReady(true)}
             playIcon={<img src={'/playIcon.png'} alt=""/>}
+           // light={<div style={{height: '100%', width: '100%', backgroundColor: '#A885FF'}}/>}
             controls={true}
             loop
           />
-        </div> : ''}
+        </div>
 
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
         <img src={'/secondColumn.png'} alt="" className='secondImage'/>
@@ -68,7 +68,6 @@ export default function Home() {
             height="100%"
             width="100%"
             muted
-            onReady={() => setVideoReady(true)}
             playIcon={<img src={'/playIcon.png'} alt="" className="playIcon"/>}
             controls={true}
            // light={<div style={{height: '100%', width: '100%', backgroundColor: '#A885FF'}}/>}
