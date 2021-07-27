@@ -40,16 +40,18 @@ export default function Home() {
 
       <div className="firstPart">
 
-       <div className="video-presentation none">
+       <div className="none nonePhoto imgVideo">
           <ReactPlayer
             url={'/video.mp4'}
             className="video-presentation-inner"
-            playing={true}
+            playing={false}
             height="100%"
             width="100%"
             muted
             playIcon={<img src={'/playIcon.png'} alt=""/>}
-           // light={<div style={{height: '100%', width: '100%', backgroundColor: '#A885FF'}}/>}
+            light={<div style={{height: '100%', width: '100%'}}>
+              <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
+            </div>}
             controls={true}
             loop
           />
@@ -84,7 +86,7 @@ export default function Home() {
           <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue">VOGZ<span style={{color: '#76DEFE'}}>*</span></span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
         </div>
 
-        <img src={'/filConducteur.png'} alt="" className='filConducteur none'/>
+        <img src={'/filConducteur.png'} alt="" className='filConducteur none nonePhoto'/>
 
         <div className="imgSelfie">
           <img src={'/manSelfie.png'} alt=""/>
@@ -130,7 +132,7 @@ export default function Home() {
 
         <h2>R<span>épondez à vos premiers briefs...</span></h2>
 
-        <img src={'/phoneImg.png'} alt="" className='none'/>
+        <img src={'/phoneImg.png'} alt="" className='none nonePhoto'/>
         <div className="premiers">
           <img src={'/premiers.png'} alt="" className="premiersImg"/>
         </div>
@@ -158,8 +160,8 @@ export default function Home() {
         */}
         <img src={'/photomontage2.png'} alt="" className="photomontage2"/>
 
-        <img src={'/filConducteur2.png'} alt="" className="filConducteur2 none" />
-        <img src={'/filConducteur2.png'} alt="" className="filConducteur3 none" />
+        <img src={'/filConducteur2.png'} alt="" className="filConducteur2 none nonePhoto" />
+        <img src={'/filConducteur2.png'} alt="" className="filConducteur3 none nonePhoto" />
 
         <img src={'/photoMontage.png'} alt="" className='noneImg'/>
         <div className="textPhotoMontage">

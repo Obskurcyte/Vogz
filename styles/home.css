@@ -127,7 +127,7 @@
 }
 
 .vogzLogo {
-  width: 39%;
+  width: 25%;
   margin: 3% auto;
 }
 
@@ -148,10 +148,10 @@
 }
 
 .arrowsImg {
-  width: 25%;
+  width: 20%;
   top: 80%;
   z-index: 4;
-  left: 37.5%;
+  left: 40%;
   position: absolute;
 }
 
