@@ -1172,6 +1172,13 @@ footer {
 
 }
 
+@media screen and (max-width: 380px){
+  .filConducteur2 {
+    top: 64%;
+  }
+
+}
+
 @media screen and (max-width: 370px){
   .filConducteur2 {
     position: absolute;

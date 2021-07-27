@@ -538,6 +538,10 @@
     top: 19%;
     padding: 3% 5%;
   }
+  .be-vogzter {
+    padding: 3% 5%;
+    bottom: 89%;
+  }
   .arrowMobileWhite {
     display: block;
     z-index: 5;
@@ -731,7 +735,6 @@
 
 @media screen and (max-width: 360px){
 
-
   .middle {
     top: 65%;
   }
@@ -744,7 +747,6 @@
 }
 
 @media screen and (max-width: 350px){
-
 
   .middle {
     top: 63%;
