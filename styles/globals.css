@@ -1137,6 +1137,9 @@ footer {
   .inscriptionButton {
     width: 50%;
   }
+  .textPhotoMontage h5 {
+    max-width: 85%;
+  }
 }
 
 @media screen and (max-width: 450px){
