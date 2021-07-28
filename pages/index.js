@@ -83,7 +83,7 @@ export default function Home() {
       <div className="secondPart" id="secondPart">
         <div className="text">
           <h3>Tu es créateur de contenu et tu sais le rendre <span>captivant</span> et <span>original ?</span></h3>
-          <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue">VOGZ<span style={{color: '#76DEFE'}}>*</span></span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
+          <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue vogz">VOGZ<span style={{color: '#76DEFE'}}>*</span></span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
         </div>
 
         <img src={'/filConducteur.png'} alt="" className='filConducteur none nonePhoto'/>
@@ -98,7 +98,7 @@ export default function Home() {
           <img src={'/selfieMom.png'} alt="" className="selfieMom"/>
         <div className="text">
           <h3>*Une <span>VOGZ</span> ?</h3>
-          <h5>Une <span className="grasBlue">VOGZ</span> est <span className="highlight">une vidéo</span> réalisée par un <span className="grasBlue">Vogzter</span>. Elle répond au <span className="highlight">brief d'un client</span>, et se veut créative, authentique, mais surtout, elle doit être à <span className="highlight">l'image de son créateur :</span> <br/><span className="bigText grasBlue">GRANDIOSE</span></h5>
+          <h5>Une <span className="grasBlue vogz">VOGZ</span> est <span className="highlight">une vidéo</span> réalisée par un <span className="grasBlue vogz">Vogzter</span>. Elle répond au <span className="highlight">brief d'un client</span>, et se veut créative, authentique, mais surtout, elle doit être à <span className="highlight">l'image de son créateur :</span> <br/><span className="bigText grasBlue">GRANDIOSE</span></h5>
 
           <div className="buttonContainer">
 
@@ -132,7 +132,7 @@ export default function Home() {
 
         <h2>R<span>épondez à vos premiers briefs...</span></h2>
 
-        <img src={'/phoneImg.png'} alt="" className='none nonePhoto'/>
+        <img src={'/photoMontage.png'} alt="" className='none nonePhoto'/>
         <div className="premiers">
           <img src={'/premiers.png'} alt="" className="premiersImg"/>
         </div>
@@ -163,7 +163,7 @@ export default function Home() {
         <img src={'/filConducteur2.png'} alt="" className="filConducteur2 none nonePhoto" />
         <img src={'/filConducteur2.png'} alt="" className="filConducteur3 none nonePhoto" />
 
-        <img src={'/photoMontage.png'} alt="" className='noneImg'/>
+        <img src={'/photoMontageMobile.png'} alt="" className='noneImg'/>
         <div className="textPhotoMontage">
           <h3>Devenir <span>VOGZTER</span>...</h3>
           <h5>C’est entrer dans une <span>communauté créative</span> aux contenus <span>rigoureux</span> et <span>efficaces.</span></h5>
@@ -184,7 +184,7 @@ export default function Home() {
             <div className="avis">
               <img src={'/hat.png'} alt="" className='hat'/>
               <h3>Avis aux <span>pionniers</span> !</h3>
-              <h5>Nous sommes à la recherche de nos <span className='highlight-light-blue'>30 premiers vogzters.</span> C'est le moment pour toi de te lancer, rejoins dès <span className='highlight-light-blue'>maintenant</span> l'aventure <span className="fatText">VOGZ</span> !</h5>
+              <h5>Nous sommes à la recherche de nos <span className='highlight-light-blue'>30 premiers vogzters.</span> C'est le moment pour toi de te lancer, rejoins dès <span className='highlight-light-blue'>maintenant</span> l'aventure <span className="fatText vogz">VOGZ</span> !</h5>
               <Formik
                 initialValues={initialValues}
                 validationSchema={SignupSchema}

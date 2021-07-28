@@ -10,7 +10,10 @@
   display: none;
 }
 
-
+.middle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 .arrowMobileBlue {
   display: none;
@@ -188,10 +191,10 @@
     padding-top: 5%;
   }
   .be-marque {
-    width: 50%;
+    width: 42%;
   }
   .be-vogzter {
-    width: 50%;
+    width: 42%;
     left: 22%;
   }
   .middle {
@@ -211,6 +214,14 @@
   }
 }
 
+@media screen and (max-width: 1350px){
+  .be-vogzter p {
+    font-size: 17px;
+  }
+  .be-marque p {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 1250px){
   .middle h5 {
     max-width: 100%;
@@ -518,11 +529,12 @@
 
   .middle {
     width: 70%;
-    top: 95%;
+    top: 80%;
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
   }
+
 
   .arrowMobileBlue {
     display: block;
@@ -540,7 +552,7 @@
   }
   .be-vogzter {
     padding: 3% 5%;
-    bottom: 89%;
+    bottom: 86%;
   }
   .arrowMobileWhite {
     display: block;
@@ -549,55 +561,16 @@
     right: 8%;
     position: absolute;
   }
+  .left  {
+    padding-right: 8%;
+    padding-top: 20%;
+  }
 }
 
 
 @media screen and (max-width: 480px){
   .middle {
-    top: 92%;
-  }
-  .arrowMobileWhite {
-    top: 85%;
-  }
-  .arrowMobileBlue {
-    top: 125%;
-  }
-}
-
-@media screen and (max-width: 470px){
-
-  .middle {
-    top: 90%;
-  }
-  .right img {
-    margin-top: 5%;
-  }
-  .arrowMobileWhite {
-    top: 80%;
-  }
-  .arrowMobileBlue {
-    top: 120%;
-  }
-}
-
-
-@media screen and (max-width: 460px){
-
-  .middle {
-    top: 88%;
-  }
-  .arrowMobileWhite {
-    top: 80%;
-  }
-  .arrowMobileBlue {
-    top: 120%;
-  }
-}
-
-
-@media screen and (max-width: 450px){
-  .middle {
-    top: 85%;
+    top: 83%;
   }
   .arrowMobileWhite {
     top: 75%;
@@ -607,54 +580,97 @@
   }
 }
 
+@media screen and (max-width: 470px){
 
-@media screen and (max-width: 440px){
+  .right img {
+    margin-top: 5%;
+  }
   .middle {
-    top: 83%;
+    top: 80%;
   }
   .arrowMobileWhite {
     top: 73%;
   }
   .arrowMobileBlue {
-    top: 115%;
+    top: 112%;
+  }
+}
+
+
+@media screen and (max-width: 460px){
+
+  .middle {
+    top: 77%;
+  }
+  .arrowMobileWhite {
+    top: 69%;
+  }
+  .arrowMobileBlue {
+    top: 107%;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+  .middle {
+    top: 76%;
+  }
+  .arrowMobileWhite {
+    top: 69%;
+  }
+  .arrowMobileBlue {
+    top: 107%;
+  }
+}
+
+
+@media screen and (max-width: 440px){
+  .middle {
+    top: 74%;
+  }
+  .arrowMobileWhite {
+    top: 67%;
+  }
+  .arrowMobileBlue {
+    top: 104%;
   }
 }
 
 @media screen and (max-width: 430px){
   .middle {
-    top: 80%;
+    top: 73%;
   }
   .arrowMobileWhite {
-    top: 70%;
+    top: 67%;
   }
   .arrowMobileBlue {
-    top: 110%;
+    top: 104%;
   }
 }
 
 @media screen and (max-width: 420px){
   .middle {
-    top: 78%;
+    top: 71%;
   }
   .arrowMobileWhite {
-    top: 70%;
+    top: 63%;
   }
   .arrowMobileBlue {
-    top: 110%;
+    top: 100%;
   }
 }
 
 @media screen and (max-width: 410px){
 
   .middle {
-    top: 76%;
+    top: 69%;
   }
   .arrowMobileWhite {
-    top: 65%;
+    top: 60%;
   }
   .arrowMobileBlue {
-    top: 105%;
-    left: 6%;
+    top: 95%;
+    left: 5%;
   }
 
   .be-marque {
@@ -671,14 +687,14 @@
 @media screen and (max-width: 400px){
 
   .middle {
-    top: 74%;
+    top: 67%;
   }
   .arrowMobileWhite {
-    top: 65%;
+    top: 60%;
   }
   .arrowMobileBlue {
-    top: 105%;
-    left: 6%;
+    top: 95%;
+    left: 5%;
   }
 }
 
@@ -686,28 +702,27 @@
 @media screen and (max-width: 390px){
 
   .middle {
-    top: 72%;
+    top: 64%;
   }
   .arrowMobileWhite {
-    top: 60%;
+    top: 57%;
   }
   .arrowMobileBlue {
-    top: 98%;
-    left: 6%;
+    top: 91%;
+    left: 5%;
   }
 }
 
 @media screen and (max-width: 380px){
-
   .middle {
-    top: 69.5%;
+    top: 62%;
   }
   .arrowMobileWhite {
-    top: 60%;
+    top: 54%;
   }
   .arrowMobileBlue {
-    top: 98%;
-    left: 6%;
+    top: 89%;
+    left: 5%;
   }
 }
 
@@ -721,14 +736,14 @@
     top: 21%;
   }
   .middle {
-    top: 67%;
+    top: 60%;
   }
   .arrowMobileWhite {
-    top: 55%;
+    top: 54%;
   }
   .arrowMobileBlue {
-    top: 94%;
-    left: 6%;
+    top: 89%;
+    left: 5%;
   }
 }
 
@@ -736,27 +751,29 @@
 @media screen and (max-width: 360px){
 
   .middle {
-    top: 65%;
+    top: 59%;
   }
   .arrowMobileWhite {
-    top: 53%;
+    top: 52%;
   }
   .arrowMobileBlue {
-    top: 93%;
+    top: 85%;
+    left: 5%;
   }
 }
 
 @media screen and (max-width: 350px){
 
+
   .middle {
-    top: 63%;
+    top: 54%;
   }
   .arrowMobileWhite {
-    top: 53%;
+    top: 44%;
   }
   .arrowMobileBlue {
-    top: 93%;
-    left: 4%;
+    top: 85%;
+    left: 5%;
   }
 
   .right {
