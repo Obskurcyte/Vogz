@@ -1,11 +1,15 @@
 import React from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import Head from "next/head";
 const Home = () => {
 
   return (
     <div>
+      <Head>
+        <title>Vogz-Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <Header />
       <div className='home-container'>
         <div className="left">
