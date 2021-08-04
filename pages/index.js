@@ -7,6 +7,8 @@ import {Link} from 'react-scroll';
 import ReCAPTCHA from 'react-google-recaptcha';
 import axios from 'axios';
 import * as Yup from 'yup';
+import "html5-device-mockups/dist/device-mockups.min.css";
+import FooterMobile from "../components/FooterMobile";
 
 export default function Home() {
 
@@ -38,7 +40,7 @@ export default function Home() {
         <link rel="stylesheet" href="../dist/devices.css"/>
       </Head>
 
-      <div className="firstPart">
+      <div className="firstPart part">
 
        <div className="none nonePhoto imgVideo">
           <ReactPlayer
@@ -77,10 +79,24 @@ export default function Home() {
           />
         </div>
 
+          {/*}  <div className="device device-iphone-x">
+
+              <div className="device-wrapper">
+                      <div className="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                          <div className="screen">
+                              <video src={'/video.mp4'} autoPlay muted loop controls />
+                          </div>
+
+                      </div>
+              </div>
+
+          </div>
+          */}
+
         <Link activeClass="active" to="secondPart" spy={true} smooth={true}><img src={'/arrowBottom.png'} alt="" className='arrowBottomImage'/></Link>
       </div>
 
-      <div className="secondPart" id="secondPart">
+      <div className="secondPart part" id="secondPart">
         <div className="text">
           <h3>Tu es créateur de contenu et tu sais le rendre <span>captivant</span> et <span>original ?</span></h3>
           <h5>Devient <span className="grasBlue">Vogzter</span> et fais partie de nos <span className="grasBlue">30 BETA TESTEUR, </span><span className="highlight">l'objectif :</span> créer les <span className="grasBlue vogz">VOGZ<span style={{color: '#76DEFE'}}>*</span></span> les plus <span className='highlight'>engageantes</span> pour toutes les marques de notre <span className='highlight'>communauté !</span></h5>
@@ -94,7 +110,7 @@ export default function Home() {
         <img src={'/fuseeRouge.png'} alt="" className="fuseeRouge"/>
       </div>
 
-      <div className="thirdPart flex-around">
+      <div className="thirdPart part flex-around">
           <img src={'/selfieMom.png'} alt="" className="selfieMom"/>
         <div className="text">
           <h3>*Une <span>VOGZ</span> ?</h3>
@@ -141,11 +157,13 @@ export default function Home() {
           grâce à vos productions ! </span></h2>
 
 
-        <Link activeClass="active" to="inscription" spy={true} smooth={true}>
+
           <div className="inscriptionButton">
+              <Link activeClass="active" to="inscription" spy={true} smooth={true}>
             <h5 className='inscriptionText'>S'INSCRIRE</h5>
+              </Link>
           </div>
-        </Link>
+
 
 
       </div>
@@ -239,7 +257,7 @@ export default function Home() {
                       size="invisible"
                       ref={reRef}
                     />
-                    <div className="contactButton" onClick={props.handleSubmit}>
+                    <div className="inscriptionButton" onClick={props.handleSubmit}>
                       <h5 className='inscriptionText'>ENVOYER</h5>
                     </div>
                     <p className={envoyer ? 'textEnvoye' : 'nonEnvoye'}>Merci pour votre participation, un membre de l'équipe vous contacte dès que possible</p>
@@ -251,6 +269,7 @@ export default function Home() {
       </div>
 
     <Footer />
+    <FooterMobile />
     </div>
   )
 }

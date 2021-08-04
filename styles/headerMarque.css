@@ -1,0 +1,52 @@
+.header-marque-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-top: 1%;
+}
+
+.links-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-marque-container img {
+    width: 100%;
+}
+.brief-button-container {
+    background: #5777FF;
+    border-radius: 10px;
+    border: none;
+    width: 220px;
+    height: 41px;
+}
+
+.img-marques-header-container {
+    width: 93px;
+    margin-left: 2%;
+}
+
+.brief-button-container p {
+    font-family: Hurme-Bold, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    cursor: pointer;
+}
+
+.links-text {
+    font-family: Hurme-Semi-Bold, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #615AF6;
+    margin-top: 1.5%;
+    cursor: pointer;
+}
+

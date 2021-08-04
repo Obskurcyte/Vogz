@@ -346,6 +346,9 @@
     padding-left: 9%;
     padding-right: 9%;
     left: 15%;
+    position: unset;
+    align-self: center;
+    margin-top: -20vh;
   }
   .middle h5 {
     margin-bottom: 7%;

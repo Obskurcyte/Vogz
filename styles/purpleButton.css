@@ -1,0 +1,9 @@
+.purple-button-container {
+    width: 344px;
+    height: 54px;
+    background: #AE85FE;
+    border: 2px solid #E4D7FF;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+}

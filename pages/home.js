@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import FooterMobile from "../components/FooterMobile";
 const Home = () => {
 
   return (
@@ -39,6 +40,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
+      <FooterMobile />
     </div>
   );
 };
