@@ -4,6 +4,13 @@
     background: #AE85FE;
     border: 2px solid #E4D7FF;
     border-radius: 10px;
-    color: white;
+    color: white!important;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.purple-button-container p {
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 20px;
+    margin: 0;
 }
