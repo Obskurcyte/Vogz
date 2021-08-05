@@ -136,7 +136,7 @@ export default function Home() {
 
         <img src={'/photoMontage.png'} alt="" className='none nonePhoto'/>
         <div className="premiers">
-          <img src={'/meufselfie.svg'} alt="" className="premiersImg"/>
+          <img src={'/fusion.png'} alt="" className="premiersImg"/>
         </div>
 
         <h2 className='revenuesText'>E<span>t générez vos premiers revenus
@@ -188,7 +188,9 @@ export default function Home() {
             <div className="avis">
               <img src={'/hat.png'} alt="" className='hat'/>
               <h3>Avis aux <span>pionniers</span> !</h3>
-              <h5>Nous sommes à la recherche de nos <span className='highlight-light-blue'>30 premiers vogzters.</span> C'est le moment pour toi de te lancer, rejoins dès <span className='highlight-light-blue'>maintenant</span> l'aventure <span className="fatText vogz">VOGZ</span> !</h5>
+                <div className="h5-container">
+                        <h5 className="h5-text">Nous sommes à la recherche de nos <span className='highlight-light-blue'>30 premiers vogzters.</span> C'est le moment pour toi de te lancer, rejoins dès <span className='highlight-light-blue'>maintenant</span> l'aventure <span className="fatText vogz">VOGZ</span> !</h5>
+                </div>
               <Formik
                 initialValues={initialValues}
                 validationSchema={SignupSchema}
@@ -208,6 +210,9 @@ export default function Home() {
                 }}
               >
                 {props => (
+                   <div className="form-container">
+
+
                   <form action="">
                     <div className="inputContainer">
                       <input
@@ -248,6 +253,7 @@ export default function Home() {
                     </div>
                     <p className={envoyer ? 'textEnvoye' : 'nonEnvoye'}>Merci pour votre participation, un membre de l'équipe vous contacte dès que possible</p>
                   </form>
+                   </div>
                 )}
 
               </Formik>

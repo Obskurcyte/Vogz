@@ -131,7 +131,6 @@ const Marques = () => {
                                             <div className="screen">
                                                 <video src={'/video.mp4'} autoPlay muted loop controls />
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
