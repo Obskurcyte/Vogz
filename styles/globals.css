@@ -264,7 +264,7 @@ a {
   background: #5488FF;
   padding: 5%;
   position: relative;
-  z-index: 1;
+  z-index: -2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -628,6 +628,7 @@ h5 {
   position: absolute;
   right: 8%;
   top: -5%;
+  z-index: -1;
 }
 footer h1 {
   margin: 0;
