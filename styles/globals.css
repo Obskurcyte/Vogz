@@ -431,6 +431,8 @@ a {
   background: linear-gradient(180deg, #A785FE 0%, #5877FF 100%);
   text-align: center;
   padding: 5%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .esper {

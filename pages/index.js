@@ -230,7 +230,7 @@ export default function Home() {
                       />
                       {props.errors.email && props.touched.email ? <div className="errors">{props.errors.email}</div> : null}
                       <input
-                        type="text"
+                        type="number"
                         placeholder="Téléphone"
                         value={props.values.phone}
                         onChange={props.handleChange('phone')}
