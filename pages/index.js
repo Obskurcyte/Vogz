@@ -101,8 +101,7 @@ export default function Home() {
         <div className="text">
           <h3>*Une <span>VOGZ</span> ?</h3>
           <h5>Une <span className="grasBlue vogz">VOGZ</span> est <span className="highlight">une vidéo</span> réalisée par un <span className="grasBlue vogz">Vogzter</span>. Elle répond au <span className="highlight">brief d'un client</span>, et se veut créative, authentique, mais surtout, elle doit être à <span className="highlight">l'image de son créateur :</span> <br/><span className="bigText grasBlue">GRANDIOSE</span></h5>
-
-          <div className="buttonContainer">
+          <div className="buttonContainer sinscrire">
 
            <Link activeClass="active" to="inscription" spy={true} smooth={true}> <img src={'/inscription3.png'} alt="" className="imgInscription"/></Link>
             {/* <div className="inscriptionButton">
@@ -116,10 +115,6 @@ export default function Home() {
             */}
           </div>
         </div>
-      </div>
-
-      <div className="greySeparation">
-
       </div>
       <div className="fourPart">
         <div className="crown">
