@@ -20,6 +20,8 @@ export default function Home() {
 
   const SignupSchema = Yup.object().shape({
     email: Yup.string().email('Veuillez rentrer une adresse mail valide').required('Veuillez rentrer une adresse mail'),
+      nom: Yup.string().required('Veuillez rentrer un nom'),
+      prenom: Yup.string().required('Veuillez rentrer un prénom'),
     phone: Yup.string().matches(/^0[1-7]{1}(([0-9]{2}){4})|((\s[0-9]{2}){4})|((-[0-9]{2}){4})$/, "Entrez un numéro valide")
   });
 
@@ -59,10 +61,12 @@ export default function Home() {
           />
         </div>
 
+
         <img src={'/firstColumn.png'} alt="" className='firstImage'/>
-        <img src={'/secondColumn.png'} alt="" className='secondImage'/>
+        <img src={'/secondColumn.png'} alt="" className='firstImage'/>
         <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
         <img src={'/fourColumn.png'} alt="" className='firstImage'/>
+
 
 
         <div className="iphone-container video-container-1">
@@ -206,8 +210,6 @@ export default function Home() {
               >
                 {props => (
                    <div className="form-container">
-
-
                   <form action="">
                     <div className="inputContainer">
                       <input
@@ -216,13 +218,15 @@ export default function Home() {
                         value={props.values.prenom}
                         onChange={props.handleChange('prenom')}
                       />
-                      <input
+                        {props.errors.prenom && props.touched.prenom ? <div className="errors">{props.errors.prenom}</div> : null}
+                        <input
                         type="text"
                         placeholder="Nom"
                         value={props.values.nom}
                         onChange={props.handleChange('nom')}
                       />
-                      <input
+                        {props.errors.nom && props.touched.nom ? <div className="errors">{props.errors.nom}</div> : null}
+                        <input
                         type="email"
                         placeholder="Adresse Mail"
                         value={props.values.email}
@@ -230,13 +234,12 @@ export default function Home() {
                       />
                       {props.errors.email && props.touched.email ? <div className="errors">{props.errors.email}</div> : null}
                       <input
-                        type="number"
+                        type="text"
                         placeholder="Téléphone"
                         value={props.values.phone}
                         onChange={props.handleChange('phone')}
                       />
                       {props.errors.phone && props.touched.phone ? <div className="errors">{props.errors.phone}</div> : null}
-
                     </div>
                     <ReCAPTCHA
                       sitekey={'6Lc2crUbAAAAAFdX2G8zDe_U3x7oOPUDH6l1-hP8'}
@@ -250,11 +253,9 @@ export default function Home() {
                   </form>
                    </div>
                 )}
-
               </Formik>
             </div>
       </div>
-
     <Footer />
     <FooterMobile />
     </div>

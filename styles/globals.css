@@ -83,6 +83,7 @@ a {
 .firstImage {
   height: 80vh;
   position: relative;
+  width: 311px;
 }
 
 .vogz-light-blue {
@@ -432,7 +433,6 @@ a {
   text-align: center;
   padding: 5%;
   height: 100vh;
-  width: 100vw;
 }
 
 .esper {
@@ -768,9 +768,6 @@ footer {
 }
 
 @media screen and (max-width: 1460px) {
-  .firstImage {
-    width: 19%;
-  }
   .secondImage {
     width: 26%;
   }
@@ -899,6 +896,8 @@ footer {
   .footer-container {
     width: 90%;
   }
+  .footer input {
+    width: 70%;}
 }
 
 @media screen and (max-width: 1050px){
