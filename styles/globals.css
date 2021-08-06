@@ -648,6 +648,15 @@ footer {
   color: #FAE422;
   background: none !important;
 }
+
+.VOGZ-container {
+  width: 30%;
+  margin-top: 30vh;
+}
+
+.VOGZ-container img{
+  width: 100%;
+}
 .premiersImg {
   width: 100%;
 }
@@ -1057,7 +1066,29 @@ footer {
     margin-top: 5%;
     margin-bottom: 5%;
   }
-
+  .descriptionContainer h5 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .footer {
+    height: unset;
+  }
+  .form-container {
+   width: 329px;
+  }
+  .h5-text {
+    width: 291px;
+  }
+  .h5-container {
+    width: 291px;
+  }
+  .footer input {
+    width: 329px;
+    height: 40px;
+  }
+  .VOGZ-container {
+    display: none;
+  }
   .greySeparation {
     display: none;
   }
@@ -1071,7 +1102,7 @@ footer {
   }
   .inscriptionButton h5 {
     font-size: 14px!important;
-    margin-top: 2px;
+    margin-top: 15px!important;
   }
   .video-presentation {
     display: none;
@@ -1084,9 +1115,8 @@ footer {
     height: 100%;
   }
   .inscriptionButton {
-    width: 140px!important;
-    padding-top: 5%;
-    padding-bottom: 5%;
+      width: 135px!important;
+      height: 38px;
     border-radius: 5px;
   }
   .inscriptionText {

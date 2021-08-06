@@ -61,11 +61,9 @@ export default function Home() {
           />
         </div>
 
-
-        <img src={'/firstColumn.png'} alt="" className='firstImage'/>
-        <img src={'/secondColumn.png'} alt="" className='firstImage'/>
-        <img src={'/thirdColumn.png'} alt="" className='firstImage'/>
-        <img src={'/fourColumn.png'} alt="" className='firstImage'/>
+          <div className="VOGZ-container">
+              <img src={'/VOGZ.png'} alt="" className="VOGZ"/>
+          </div>
 
 
 
