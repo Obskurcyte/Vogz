@@ -2,7 +2,7 @@ import React from 'react';
 import {useRouter} from "next/router";
 import {Navbar, Nav, NavDropdown} from "react-bootstrap";
 
-const HeaderMarque = () => {
+const HeaderCommentCaMarche = () => {
 
     const router = useRouter();
 
@@ -16,12 +16,11 @@ const HeaderMarque = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto expandNav">
 
-
                     <Nav.Link href="#"><li className="nav-item active">
                         <a className="nav-link links-text" href="#">Qui sommes-nous ?</a>
                     </li></Nav.Link>
-                    <Nav.Link href="javascript:void(0)"><li className="nav-item active">
-                        <a className="nav-link links-text" href={"/comment-ca-marche"}>Comment ça marche ?</a>
+                    <Nav.Link href="/comment-ca-marche"><li className="nav-item active">
+                        <a className="nav-link links-text link-active" href="javascript:void(0)">Comment ça marche ?</a>
                     </li></Nav.Link>
                     <Nav.Link href="javascript:void(0)"><li>
                         <button className="brief-button-container petit-brief" onClick={() => router.push('/deposer-un-brief')}>
@@ -34,4 +33,4 @@ const HeaderMarque = () => {
     );
 };
 
-export default HeaderMarque;
+export default HeaderCommentCaMarche;

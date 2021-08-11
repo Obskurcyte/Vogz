@@ -1,0 +1,245 @@
+.logo-container-brief {
+    width: 50%;
+    position: relative;
+}
+
+.vogz-logo-container {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 103px;
+    height: 111px;
+}
+.deposer-brief-container {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.deposer-brief-title {
+    margin-bottom: 0;
+}
+.brief-container {
+    width: 519px;
+}
+
+.satisfait-rembourse-text {
+    margin-bottom: 30px;
+}
+.brief-container h1 {
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 45px;
+    line-height: 59px;
+    color: #615AF6;
+    font-weight: 900;
+}
+
+.brief-container h3 {
+    font-family: Hurme-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 130%;
+    color: #7C7C7C;
+}
+
+.rendez-vous {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 115%;
+    color: #A785FE;
+    margin-bottom: 35px;
+
+}
+
+.label-brief {
+    font-family: Hurme-Regular, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    color: #747A7F;
+    margin-bottom: 6px;
+}
+
+.nom-prenom {
+    width: 457px;
+}
+
+.input-nom {
+    width: 219px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(190, 190, 190, 0.25);
+    border-radius: 7px;
+    height: 45px;
+    border: none;
+}
+
+.test-produit {
+    font-family: Hurme-Bold, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 130%;
+    color: #A785FE;
+    font-weight: 900;
+}
+
+.img-marques-header-container {
+    margin-left: 40%;
+}
+.type-video-container {
+    width: 457px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(190, 190, 190, 0.25);
+    border-radius: 7px;
+    position: relative;
+    padding-top: 13px;
+    border: none;
+}
+
+
+.arrowButtonBrief {
+    position: absolute;
+    right: 22px;
+    top: 13px;
+}
+
+.numero {
+    width: 87px;
+    border-right: 0.2px solid #A785FE;
+}
+.numero p {
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 15px;
+    line-height: 130%;
+    color: #A785FE;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.numero-container {
+    width: 457px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(190, 190, 190, 0.25);
+    border-radius: 7px;
+    position: relative;
+    border: none;
+}
+.numero-inner-container {
+    width: 370px;
+    height: 45px;
+    border: none;
+}
+
+.rendez-vous-button {
+    width: 457px;
+    height: 54px;
+    background: #615AF6;
+    border: 2px solid #ACA8FF;
+    border-radius: 10px;
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .input-nom {
+        width: 153px;
+        height: 31px;
+    }
+
+    .type-video-container {
+        width: 332px;
+        height: 31px;
+    }
+
+    .rendez-vous-button {
+        width: 332px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .vogzLogo-phone-container {
+        width: 62px;
+        height: 67px;
+        margin: 8% auto;
+    }
+
+    .vogzLogo-phone-container img {
+        width: 100%;
+    }
+    .brief-h1-phone-container {
+        width: 211px;
+        margin: 0 auto;
+    }
+    .brief-h1-phone-container h2{
+        font-family: Hurme-Bold, sans-serif;
+        font-size: 25px;
+        line-height: 33px;
+        color: #615AF6;
+        font-weight: 900;
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .brief-h1-phone-container p{
+        font-size: 15px;
+        line-height: 18px;
+        color: #7C7C7C;
+        text-align: center;
+        font-family: Hurme-Regular, sans-serif;
+        width: 100%;
+    }
+    .brief-rendez-vous-phone-container {
+        width: 292px;
+        margin: 8% auto;
+    }
+    .brief-rendez-vous-phone-container h5{
+        font-family: Hurme-Bold, sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 115%;
+        text-align: center;
+        width: 100%;
+        color: #A785FE;
+    }
+    .phone-brief-container {
+        width: 332px;
+        margin: 0 auto;
+    }
+    .numero-container {
+        width: 332px;
+        height: 31px;
+    }
+
+    .numero-inner-container {
+        width: 332px;
+        height: 31px;
+    }
+    .nom-prenom {
+        width: 332px;
+    }
+    .numero p {
+        margin-top: 9px;
+        font-size: 12px;
+    }
+    .test-produit {
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .type-video-container {
+        padding-top: 8px;
+    }
+    .brief-phone {
+        padding-top: 10%;
+    }
+    .navbar {
+        box-shadow: none!important;
+    }
+}

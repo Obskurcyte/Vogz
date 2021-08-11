@@ -9,7 +9,7 @@
     line-height: 130%;
     text-align: center;
     color: white;
-    margin-top: 40%;
+    margin-top: 55%;
 }
 
 .logo-marche-container {
@@ -34,14 +34,19 @@
     line-height: 130%;
     color: #615AF6;
     margin-bottom: 3%;
+    width: 524px;
 }
 
 
+.no-pub {
+    width: 50%;
+}
 .no-pub p {
     font-size: 20px;
 }
 .text-comment-para {
-    margin-bottom: 5%;
+    margin-bottom: 50px;
+    width: 521px;
 }
 
 .comment-2 {
@@ -53,20 +58,428 @@
 }
 
 .inner-title-comment-container {
-    max-width: 70%;
+    width: 990px;
     margin: 0 auto;
 }
 
+.title-comment {
+    width: 100%;
+}
 .process-container {
     position: relative;
-}
-.process-inner-container {
-    max-width: 70%;
+    width: 990px;
     margin: 0 auto;
+}
+
+.process-inner-container {
+    width: 990px;
 }
 
 .arrow-corner {
     position: absolute;
-    top: 5%;
-    left: 30%;
+    top: 80px;
+    left: 38%;
+    z-index: -1;
+}
+
+.lorem-container {
+    width: 474px;
+    margin: 0 auto;
+}
+
+.number-img {
+    width: 70px;
+    height: 70px;
+    margin-left: 162px;
+}
+
+.number-img-right {
+    width: 70px;
+    height: 70px;
+    margin-left: 101px;
+}
+
+.inner-process {
+    align-items: center;
+    width: 321px;
+    margin-top: 40px;
+}
+
+.inner-process-right {
+    align-items: center;
+    width: 321px;
+    margin-top: 40px;
+}
+
+.computer-img {
+    width: 704px;
+    height: 510px;
+}
+
+
+
+.brief-text-container-right {
+    width: 504px;
+    height: 109px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.brief-text-container {
+    width: 398px;
+    height: 64px;
+    text-align: center;
+}
+
+.img-process-container {
+    margin-right: 55px;
+}
+
+
+.img-process-container-right {
+    margin-right: -26px;
+
+}
+
+.brief-text {
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 35px;
+    line-height: 46px;
+    color: #615AF6;
+}
+
+.brief2 {
+    margin-right: 20px;
+}
+
+.comment3 {
+    height: 100vh;
+    background-color: #5488FF;
+}
+
+.satisfait-rembourse {
+    width: 443px;
+    height: 464px;
+    background-color: white;
+    box-shadow: 0px 0px 35px #3668DB;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 13%;
+    position: relative;
+    padding-top: 6%;
+}
+
+.brief-button-satisfait {
+    text-transform: uppercase;
+    width: 289px;
+    height: 54px;
+    background: #5777FF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+    color: white;
+    margin-top: 30px;
+}
+
+.satisfait-rembourse-text-container {
+    width: 556px;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.apartir {
+    font-size: 65px;
+    line-height: 115%;
+    color: #FFFFFF;
+    width: 529px;
+    margin-bottom: 25px;
+    font-family: Hurme-Bold, sans-serif;
+}
+
+.apartir span {
+    color: #A0D7FE;
+}
+
+.satisfait-rembourse-text-container p {
+    color: white;
+    font-size: 20px;
+}
+
+.yellowTitle {
+    color: #FCD81A;
+    font-family: Hurme-Bold, sans-serif;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.satisfait-img-container {
+    width: 84px;
+    height: 91px;
+    margin: 0 auto;
+}
+
+.satisfait-img-container img {
+    width: 100%;
+}
+
+.satisfait-text {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Hurme-Bold, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.garantie-text {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    color: #7C7C7C;
+}
+
+.garantie-text-container {
+    width: 323px;
+    margin: 0 auto;
+}
+
+.cross-img {
+    position: absolute;
+    right: 8%;
+    top: 6%;
+    cursor: pointer;
+}
+
+.satisfait-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.img-process-container-left {
+    width: 613.94px;
+    height: 480.33px;
+    margin-bottom: 200px;
+    margin-top: -125px;
+    margin-left: -87px;
+}
+
+.fusionIphone {
+    width: 100%;
+}
+
+
+/* ////////////// Phone Style ////////////////// */
+
+
+.comment-ca-marche-mobile-container1 {
+    height: 400px;
+    background: #51D3F4;
+    padding-top: 20%;
+}
+
+.lorem-phone-container {
+    width: 260px;
+    margin: 8% auto;
+}
+
+.navbar-mobile-comment{
+    background-color: #51D3F4!important;
+    -webkit-box-shadow: none;
+    box-shadow: none!important;
+}
+
+.lorem-phone-container h5 {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    text-shadow: 0px 4px 5px rgba(221, 221, 221, 0.3)
+}
+
+.phone-card {
+    width: 338px;
+    height: 396px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(190, 190, 190, 0.25);
+    border-radius: 10px;
+    margin: 10% auto;
+    padding-top: 10%;
+}
+
+.phone-card-text-container {
+    width: 274px;
+    margin: 0 auto;
+}
+
+.phone-card-text-container h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 115%;
+    font-family: Hurme-Bold, sans-serif;
+    color: #615AF6
+}
+
+.phone-card-para-container {
+    width: 273px;
+    margin: 5% auto;
+}
+
+.vogzLogo3-container {
+    width: 62px;
+    height: 67px;
+    margin: 0 auto;
+}
+
+.vogzLogo3-container img{
+    width: 100%;
+}
+.phone-card p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #7C7C7C;
+}
+.comment-ca-marche-phone-title-container {
+    width: 255px;
+    margin: 0 auto;
+}
+
+.comment-ca-marche-phone-title {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #A785FE;
+}
+
+.comment-ca-marche-phone4 {
+    height: 706px;
+    background: #5488FF;
+}
+
+@media screen and (max-width: 600px){
+    .satisfait-rembourse {
+        width: 298px;
+        height: 272px;
+        padding-top: 13%;
+        margin: 6% auto;
+    }
+    .satisfait-img-container {
+        width: 47px;
+        height: 51px;
+    }
+    .cross-img {
+        width: 12px;
+        height: 12px;
+    }
+    .satisfait-text {
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .garantie-text-container {
+        width: 217px;
+    }
+    .garantie-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .apartir {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+    .flex-column-reverse {
+        flex-direction: column-reverse;
+    }
+    .satisfait-rembourse-text-container {
+        width: 285px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .satisfait-rembourse-text-container p {
+        font-size: 14px;
+    }
+    .yellowTitle {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 17px;
+    }
+    .comment-ca-marche-phone4 {
+        padding-top: 8%;
+    }
+    .inner-process {
+        width: 347px;
+        margin: 10% auto;
+        text-align: center;
+    }
+    .inner-process3 {
+        width: 347px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .inner-process1 {
+        width: 225px;
+        margin: 10% auto;
+    }
+    .brief-text {
+        width: 100%;
+        font-size: 25px;
+        line-height: 130%;
+    }
+    .brief-text-container {
+        width: 225px;
+    }
+    .brief-text-container-big {
+        width: 347px;
+    }
+    .img-number-container {
+        width: 56px;
+        margin: 0 auto;
+    }
+    .img-number-container img {
+        width: 100%;
+        height: 100%;
+    }
+    .img-phone-container {
+        width: 251px;
+        margin: 0 auto;
+    }
+    .img-phone-container img {
+        width: 100%;
+    }
+    .img-3-container {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .img-3-container img{
+        width: 100%;
+    }
+    .brief-text-container p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .arrowButtonPhone {
+        width: 24px;
+    }
+    .comment-phone-container2 {
+        padding-bottom: 20%;
+    }
+    .img-marques-header-container {
+        margin-left: 25%;
+        width: 77px;
+    }
+    .mobile-toggler{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
 }

@@ -43,7 +43,7 @@ const FooterMobile = () => {
 
 
                 <div className="img-footer-mobile-container">
-                    <img src={'/footerLogo.svg'} alt=""/>
+                    <img src={'/vogzLogoFooterMobile.png'} alt=""/>
                 </div>
             </div>
         </footer>

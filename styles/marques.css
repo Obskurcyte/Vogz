@@ -14,8 +14,9 @@
     position: absolute;
     left: 14%;
     top: 15%;
-    max-width: 35%;
-    padding: 3%;
+    width: 560px;
+    height: 578px;
+    padding: 4%;
 }
 
 .part1-marque {
@@ -45,6 +46,9 @@
     font-size: 20px;
     line-height: 130%;
     color: #7C7C7C;
+    width: 425px;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 .gros-brief{
@@ -90,12 +94,14 @@
 }
 
 .img-rond-container {
-    width: 35%;
+    width: 476px;
     margin-right: 5%;
 }
 
+
 .createur-text {
-    max-width: 80%;
+    width: 556px;
+    margin-top: 4%;
 }
 
 .createur-text p {
@@ -117,7 +123,19 @@
     font-weight: 900;
     text-align: center;
     margin-bottom: 8%;
+    width: 100%;
+    font-size: 30px;
 }
+
+.inner-title-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.createur-title-container {
+    width: 670px;
+}
+
 
 .marque-title {
     color: #615AF6;
@@ -126,6 +144,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 115%;
+    width: 100%;
 }
 
 .part6-marque h2, .part6-marque p {
@@ -167,6 +186,8 @@
     font-weight: 100;
     font-size: 20px;
     line-height: 130%;
+    width: 527px;
+    margin-right: 120px;
 }
 
 .img-marques-header-container img{
@@ -181,10 +202,6 @@
     margin-bottom: 2%;
 }
 
-.slider-text p {
-    max-width: 90%;
-}
-
 .video-container-2 {
     position: absolute;
     right: 5%;
@@ -196,7 +213,8 @@
 }
 
 .slick-dots li {
-    width: 50px!important;
+    width: 18px!important;
+    height: 18px!important;
 }
 
 .links-text {
@@ -204,7 +222,7 @@
 }
 
 .slick-dots li button:before {
-    font-size: 22px!important;
+    font-size: 16px!important;
     color: white!important;
 }
 
@@ -218,8 +236,9 @@
 }
 .card-img-container {
     align-self: center;
-    width: 30%;
     margin: 25% auto;
+    width: 88.54px;
+    height: 99.92px;
 
 }
 
@@ -237,13 +256,14 @@
 }
 
 .row-card {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 .card-container p {
     text-align: center;
     margin-top: 0;
     font-size: 20px;
     align-self: center;
+    line-height: 130%;
 }
 .part5-marque {
     max-width: 70%;
@@ -276,4 +296,322 @@
 }
 .slider-img-container img{
     height: 100%;
+}
+
+
+
+
+/* Phone Style */
+
+
+.phone-view {
+    display: none;
+}
+
+.vogz-logo-phone-container {
+    width: 62px;
+    height: 67px;
+    margin: 8% auto;
+}
+
+.vogz-logo-phone-container img{
+    width: 100%;
+}
+.brief-phone-button {
+    width: 100%;
+    height: 34px;
+    background: #5777FF;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    border: none;
+    font-size: 12px;
+}
+
+.phone-marque-h1-container {
+    width: 323px;
+    margin: 0 auto;
+}
+.phone-marque-h1 {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #615AF6;
+
+    text-shadow: 0px 4px 5px rgba(221, 221, 221, 0.3);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(97, 90, 246, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.phone-video-container{
+    height: 834px;
+}
+
+.card-phone-marques {
+    width: 338px;
+    height: 293px;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(190, 190, 190, 0.25);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.card-phone-marques h2 {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 115%;
+    color: #615AF6;
+    text-align: center;
+}
+
+.profiter-selection {
+    width: 273px;
+    margin: 0 auto;
+}
+.card-phone-marques p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #7C7C7C;
+    width: 100%;
+}
+
+.comment-ca-marche-button-container {
+    width: 198px;
+    margin: 10% auto;
+}
+.comment-ca-marche-phone {
+    width: 100%;
+    height: 34px;
+    background: #AE85FE;
+    border-radius: 7px;
+    color: white;
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    border: none;
+}
+
+.combinaison3 {
+    width: 338px;
+    margin: 0 auto;
+}
+
+.combinaison3-img {
+    width: 100%;
+}
+
+.alimenter-reseaux-container {
+    width: 321px;
+    margin: 10% auto;
+}
+.alimenter-reseaux {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    width: 100%;
+    line-height: 130%;
+    text-align: center;
+    color: #A785FE;
+}
+
+.arrowButtonPhone {
+    width: 0px;
+    margin: 5% auto;
+}
+
+.authenticite-container {
+    width: 326px;
+    margin: 8% auto;
+}
+.authenticite {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    color: #90D7FF
+}
+
+.createur-phone-container {
+    width: 214px;
+    margin: 5% auto;
+}
+
+.createur-phone-container h2 {
+    font-family: Hurme-Bold, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 115%;
+    text-align: center;
+    color: #615AF6;
+    width: 100%;
+}
+
+.ni-influenceur-phone-container {
+    width: 308px;
+    margin: 0 auto;
+    color: #7C7C7C;
+}
+
+.ni-influenceur-phone {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.phone-container-marque {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.brief-button-phone-container {
+    width: 165px;
+    margin: 7% auto;
+}
+
+.part4-marque-phone {
+    height: 607px;
+    background: #5488FF;
+    padding-top: 8%;
+}
+
+.vogz-type-phone {
+    font-family: Hurme-Bold, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 130%;
+    color: #FCD81A;
+}
+
+
+.slider-inner-title-phone {
+    font-family: Hurme-Bold, sans-serif;
+    font-size: 28px;
+    line-height: 115%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.phone-video-container-slider {
+    width: 127px;
+    height: 237px;
+    margin: 8% auto;
+}
+
+.slider-inner-phone {
+    width: 100% !important;
+}
+
+.slider-inner-text-phone-container {
+    width: 273px;
+    margin: 8% auto;
+}
+.slider-inner-text-phone {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.choix-vogz-container {
+    width: 280px;
+    margin: 5% auto;
+}
+
+.choix-vogz {
+    font-family: Hurme-Bold, sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #615AF6;
+    font-size: 35px;
+    line-height: 115%;
+    margin-bottom: 5%;
+}
+
+.choix-vogz-text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.choix-vogz-container-phone {
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.process-container-phone {
+    width: 244px;
+    margin: 5% auto;
+}
+
+.process-container-phone h2 {
+    width: 100%;
+    font-size: 35px;
+    line-height: 115%;
+    text-align: center;
+    color: #615AF6;
+    font-family: Hurme-Bold, sans-serif;
+}
+
+.link-active {
+    text-decoration: underline;
+    text-underline-position: under
+}
+.process-container-phone p{
+    font-size: 14px;
+    line-height: 130%;
+    width: 100%;
+    text-align: center;
+    color: #7C7C7C;
+}
+@media screen and (max-width: 600px){
+    .computer-view {
+        display: none;
+    }
+
+    .navbar {
+        height: unset;
+    }
+    .slick-dots {
+        bottom: -25px !important;
+    }
+    .slick-dots li {
+        width: 9px!important;
+    }
+    .phone-view {
+        display: block;
+    }
+    .navbar-nav {
+        margin-left: -10%;
+    }
+    .petit-brief {
+        width: 165px;
+        height: 34px;
+    }
+    .petit-brief p {
+        font-size: 12px;
+    }
+    .navbar-nav .nav-link {
+        text-align: right;
+        margin-right: 3%;
+    }
 }

@@ -11,7 +11,7 @@
     background-color: black;
     height: 329px;
     color: white;
-    padding-top: 3%;
+    padding-top: 10%;
     padding-bottom: 3%;
     align-items: center;
 }
@@ -21,12 +21,12 @@
 }
 
 .footer-mobile p {
-    font-family: Hurme-Semi-Bold, sans-serif ;
+    font-family: Hurme-Regular, sans-serif ;
     font-size: 13px;
 }
 .img-footer-mobile-container {
     margin: 0 auto;
-    width: 35%
+    width: 118px
 }
 .img-footer-mobile-container img {
     width: 100%;
@@ -42,7 +42,7 @@
 }
 .footer-mobile-innner {
     width: 80%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 .footer-column {
     width: 20%;
