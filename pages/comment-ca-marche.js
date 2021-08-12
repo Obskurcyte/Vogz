@@ -54,7 +54,7 @@ const CommentCaMarche = () => {
                             </div>
                         </div>
                         <div className="img-process-container">
-                            <img src={'/computerwitharrow.png'} alt="" className='computer-img'/>
+                            <img src={'/mockup_1.png'} alt="" className='mockup_1'/>
                         </div>
                     </div>
 
@@ -67,25 +67,25 @@ const CommentCaMarche = () => {
                             </div>
                         </div>
                         <div className="img-process-container-right">
-                            <img src={'/computerwitharrow2.png'} alt="" className='computer-img'/>
+                            <img src={'/mockup_2.png'} alt="" className='mockup_2'/>
                         </div>
                     </div>
 
                     <div className="flex-between process-inner-container">
-                        <div className="inner-process flex-column">
+                        <div className="inner-process flex-column inner3">
                             <img src={'/Trois.png'} alt="" className="number-img"/>
                             <div className="brief-text-container">
                                 <h2 className="brief-text">Vous avez 3 jours pour faire votre choix</h2>
                                 <p className="grey">une fois ces 10 jours passés</p>
                             </div>
                         </div>
-                        <div className="img-process-container">
-                            <img src={'/computerwitharrow3.png'} alt="" className='computer-img'/>
+                        <div className="img-process-container3">
+                            <img src={'/mockup_3.png'} alt="" className='mockup_3'/>
                         </div>
                     </div>
 
                     <div className="flex-row-reverse flex-between process-inner-container">
-                        <div className="inner-process-right flex-column brief2">
+                        <div className="inner-process-right flex-column brief4">
                             <img src={'/Quatre.png'} alt="" className="number-img-right"/>
                             <div className="brief-text-container-right">
                                 <h2 className="brief-text">Vous recevrez les contenus</h2>

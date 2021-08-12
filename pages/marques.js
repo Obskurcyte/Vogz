@@ -425,7 +425,7 @@ const Marques = () => {
                                         height="100%"
                                         width="100%"
                                         muted
-                                        playIcon={<img src={'/playIcon.png'} alt=""/>}
+                                        playIcon={<img src={'/playIcon.png'} alt="" className='play-icon'/>}
                                         light={<div style={{height: '100%', width: '100%'}}>
                                             <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
                                         </div>}
@@ -451,7 +451,7 @@ const Marques = () => {
                                         height="100%"
                                         width="100%"
                                         muted
-                                        playIcon={<img src={'/playIcon.png'} alt=""/>}
+                                        playIcon={<img src={'/playIcon.png'} alt="" className='play-icon'/>}
                                         light={<div style={{height: '100%', width: '100%'}}>
                                             <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
                                         </div>}
@@ -476,7 +476,7 @@ const Marques = () => {
                                         height="100%"
                                         width="100%"
                                         muted
-                                        playIcon={<img src={'/playIcon.png'} alt=""/>}
+                                        playIcon={<img src={'/playIcon.png'} alt="" className='play-icon'/>}
                                         light={<div style={{height: '100%', width: '100%'}}>
                                             <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
                                         </div>}
@@ -501,7 +501,7 @@ const Marques = () => {
                                         height="100%"
                                         width="100%"
                                         muted
-                                        playIcon={<img src={'/playIcon.png'} alt=""/>}
+                                        playIcon={<img src={'/playIcon.png'} alt="" className='play-icon'/>}
                                         light={<div style={{height: '100%', width: '100%'}}>
                                             <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
                                         </div>}
@@ -525,7 +525,7 @@ const Marques = () => {
                                         height="100%"
                                         width="100%"
                                         muted
-                                        playIcon={<img src={'/playIcon.png'} alt=""/>}
+                                        playIcon={<img src={'/playIcon.png'} alt="" className='play-icon'/>}
                                         light={<div style={{height: '100%', width: '100%'}}>
                                             <img src={'/photoVideo.jpg'} alt="" style={{height: '100%', width: '100%'}}/>
                                         </div>}

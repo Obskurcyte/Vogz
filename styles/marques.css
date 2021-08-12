@@ -78,6 +78,7 @@
 
 .createur-container {
     width: 50%;
+    margin-left: 13%;
 }
 
 .grey {
@@ -122,7 +123,7 @@
     font-family: Hurme-Bold, sans-serif;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 13%;
     width: 100%;
     font-size: 30px;
 }
@@ -152,8 +153,8 @@
 }
 
 .card-container {
-    width: 332px;
-    height: 515px;
+    width: 322px;
+    height: 440px;
     background: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(190, 190, 190, 0.55);
     border-radius: 15px;
@@ -209,7 +210,7 @@
 }
 
 .slick-dots {
-    bottom: 100px!important;
+    bottom: 130px!important;
 }
 
 .slick-dots li {
@@ -256,7 +257,11 @@
 }
 
 .row-card {
-    margin-top: 5%;
+    margin-top: 4%;
+}
+
+.play-icon {
+    width: 50%;
 }
 .card-container p {
     text-align: center;
@@ -266,7 +271,7 @@
     line-height: 130%;
 }
 .part5-marque {
-    max-width: 70%;
+    width: 1100px;
     margin: 0 auto;
 }
 

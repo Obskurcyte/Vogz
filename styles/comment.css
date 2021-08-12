@@ -25,7 +25,7 @@
     margin: 30% auto;
 }
 .comment-1 {
-    height: 100vh;
+    height: 93vh;
 }
 
 .pub-title {
@@ -67,12 +67,12 @@
 }
 .process-container {
     position: relative;
-    width: 990px;
+    width: 1221px;
     margin: 0 auto;
 }
 
 .process-inner-container {
-    width: 990px;
+    width: 1221px;
 }
 
 .arrow-corner {
@@ -91,6 +91,7 @@
     width: 70px;
     height: 70px;
     margin-left: 162px;
+    margin-bottom: 15px;
 }
 
 .number-img-right {
@@ -112,7 +113,7 @@
 }
 
 .computer-img {
-    width: 704px;
+    width: 741px;
     height: 510px;
 }
 
@@ -132,26 +133,48 @@
 }
 
 .img-process-container {
-    margin-right: 55px;
+    width: 741px;
+    margin-left: 56px;
 }
 
-
+.img-process-container img{
+    width: 100%;
+}
 .img-process-container-right {
-    margin-right: -26px;
-
+    margin-right: 46px;
+    width: 771px;
 }
 
+.img-process-container-right img{
+    width: 100%;
+}
+
+.img-process-container3 {
+    width: 817px;
+    margin-left: 70px;
+}
+
+.img-process-container3 img{
+    width: 100%;
+}
 .brief-text {
     font-family: Hurme-Bold, sans-serif;
     font-size: 35px;
-    line-height: 46px;
+    margin-bottom: 0;
     color: #615AF6;
 }
 
 .brief2 {
-    margin-right: 20px;
+    margin-right: 63px;
 }
 
+.inner3 {
+    margin-left: 52px;
+}
+
+.brief4 {
+    margin-right: 99px;
+}
 .comment3 {
     height: 100vh;
     background-color: #5488FF;
@@ -163,7 +186,7 @@
     background-color: white;
     box-shadow: 0px 0px 35px #3668DB;
     border-radius: 10px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 13%;
     position: relative;
     padding-top: 6%;
@@ -211,6 +234,7 @@
     color: #FCD81A;
     font-family: Hurme-Bold, sans-serif;
     margin-top: 35px;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 
@@ -261,10 +285,13 @@
 
 .img-process-container-left {
     width: 613.94px;
-    height: 480.33px;
     margin-bottom: 200px;
     margin-top: -125px;
     margin-left: -87px;
+}
+
+.img-process-container-left img{
+   width: 100%;
 }
 
 .fusionIphone {
@@ -445,7 +472,7 @@
     }
     .img-number-container {
         width: 56px;
-        margin: 0 auto;
+        margin: 5% auto;
     }
     .img-number-container img {
         width: 100%;
