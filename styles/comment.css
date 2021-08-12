@@ -128,10 +128,18 @@
     margin-left: -100px;
 }
 
+.brief-text-container-right p{
+    font-size: 20px;
+}
+
 .brief-text-container {
     width: 398px;
     height: 64px;
     text-align: center;
+}
+
+.brief-text-container p{
+   font-size: 20px;
 }
 
 .img-process-container {

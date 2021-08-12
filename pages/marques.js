@@ -263,7 +263,7 @@ const Marques = () => {
                             <div className="card-img-container">
                                 <img src={'/time.png'} alt="" className="card-img" />
                             </div>
-                            <h5 className="card-container">Gagner du temps</h5>
+                            <h5>Gagner du temps</h5>
                             <p className="grey"><span className="highlight">8 jours</span> 8 jours c’est le temps moyen pour obtenir vos <span className="vogz grasBlue">VOGZ</span> prêtes à être partagées ! </p>
                         </div>
 
@@ -553,8 +553,6 @@ const Marques = () => {
 
 
 
-
-                <div id="circle"/>
 
                 <section className="choix-vogz-container-phone">
                     <div className="choix-vogz-container">
