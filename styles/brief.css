@@ -85,6 +85,10 @@
 .img-marques-header-container {
     margin-left: 40%;
 }
+
+.popup-material-ui div {
+    z-index: 2 !important;
+}
 .type-video-container {
     width: 457px;
     height: 45px;

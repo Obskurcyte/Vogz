@@ -4,6 +4,13 @@ import {Formik} from "formik";
 import Footer from "../components/Footer";
 import HeaderMarque from "../components/HeaderMarque";
 import FooterMobile from "../components/FooterMobile";
+import ClickAwayListener from '@material-ui/core/ClickAwayListener';
+import Grow from '@material-ui/core/Grow';
+import Paper from '@material-ui/core/Paper';
+import Popper from '@material-ui/core/Popper';
+import MenuItem from '@material-ui/core/MenuItem';
+import MenuList from '@material-ui/core/MenuList';
+import { makeStyles } from '@material-ui/core/styles';
 
 const DeposerUnBrief = () => {
 
@@ -15,6 +22,38 @@ const DeposerUnBrief = () => {
         email: '',
         phone: ''
     }
+
+    const [open, setOpen] = React.useState(false);
+    const anchorRef = React.useRef(null);
+
+    const handleToggle = () => {
+        setOpen((prevOpen) => !prevOpen);
+    };
+
+    const handleClose = (event) => {
+        if (anchorRef.current && anchorRef.current.contains(event.target)) {
+            return;
+        }
+
+        setOpen(false);
+    };
+
+    function handleListKeyDown(event) {
+        if (event.key === 'Tab') {
+            event.preventDefault();
+            setOpen(false);
+        }
+    }
+
+    // return focus to the button when we transitioned from !open -> open
+    const prevOpen = React.useRef(open);
+    React.useEffect(() => {
+        if (prevOpen.current === true && open === false) {
+            anchorRef.current.focus();
+        }
+
+        prevOpen.current = open;
+    }, [open]);
 
     const [value, setValue] = useState('Test Produit');
 
@@ -73,7 +112,42 @@ const DeposerUnBrief = () => {
                                         </div>
                                     </div>
 
-                                    <div className="flex-column mb-2">
+                                    <div className="flex-column mb-2 popup-material-ui" ref={anchorRef} onClick={handleToggle}>
+                                        <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+                                            {({ TransitionProps, placement }) => (
+                                                <Grow
+                                                    {...TransitionProps}
+                                                    style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
+                                                >
+                                                    <Paper>
+                                                        <ClickAwayListener onClickAway={handleClose}>
+                                                            <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
+                                                                <MenuItem onClick={() => {
+                                                                    setValue("Test Produit")
+                                                                    handleClose()
+                                                                }}>Test Produit</MenuItem>
+                                                                <MenuItem onClick={() => {
+                                                                    setValue("Témoignage")
+                                                                    handleClose()
+                                                                }}>Témoignage</MenuItem>
+                                                                <MenuItem onClick={() => {
+                                                                    setValue("Acting")
+                                                                    handleClose()
+                                                                }}>Acting</MenuItem>
+                                                                <MenuItem onClick={() => {
+                                                                    setValue("Créativité")
+                                                                    handleClose()
+                                                                }}>Créativité</MenuItem>
+                                                                <MenuItem onClick={() => {
+                                                                    setValue("Chorégraphie/Chant")
+                                                                    handleClose()
+                                                                }}>Chorégraphie/Chant</MenuItem>
+                                                            </MenuList>
+                                                        </ClickAwayListener>
+                                                    </Paper>
+                                                </Grow>
+                                            )}
+                                        </Popper>
                                         <div>
                                             <label className="label-brief">Type de vidéo</label>
                                         </div>

@@ -605,6 +605,20 @@
     .phone-view {
         display: block;
     }
+    .card-container {
+        height: 379px;
+    }
+    .card-img-container {
+        width: 65px;
+        height: 73px;
+    }
+    .card-container h5 {
+        font-size: 18px;
+        margin-bottom: 12%;
+    }
+    .card-container p {
+        font-size: 14px;
+    }
     .navbar-nav {
         margin-left: -10%;
     }

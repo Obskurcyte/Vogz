@@ -306,6 +306,8 @@
     height: 400px;
     background: #51D3F4;
     padding-top: 20%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 .lorem-phone-container {
