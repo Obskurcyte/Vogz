@@ -9,7 +9,8 @@ import 'slick-carousel/slick/slick.css';
 import Head from "next/head";
 import Swiper from 'react-id-swiper';
 import FooterMobile from "../components/FooterMobile";
-import RSlick from 'react-slick'
+import RSlick from 'react-slick';
+import {useRouter} from 'next/router';
 
 const settings = {
     dots: true,
@@ -29,6 +30,8 @@ const settingSliderCenter = {
     slidesToScroll:1,
     speed: 500
 }
+
+
 
 const AutoSlidesPerView = () => {
     const params = {
@@ -51,6 +54,7 @@ const AutoSlidesPerView = () => {
 };
 
 const Marques = () => {
+    const router = useRouter();
     return (
         <div>
             <div className="marque-container computer-view">
@@ -342,7 +346,7 @@ const Marques = () => {
                             </h1>
                         </div>
 
-                        <div className="brief-button-phone-container">
+                        <div className="brief-button-phone-container" onClick={() => router.push('/deposer-un-brief')}>
                             <button className="brief-phone-button">
                                 Déposer un brief
                             </button>
@@ -376,7 +380,7 @@ const Marques = () => {
                         <div className="profiter-selection">
                             <p className="mb-4">Profitez d'une sélection de <span className="vogz grasBlue">Vogster</span> capable de réaliser pour vous, <span className="highlight">une vidéo UGC sur mesure</span> d'après <span className="highlight">un brief</span> de votre choix.</p>
                         </div>
-                        <div className="comment-ca-marche-button-container">
+                        <div className="comment-ca-marche-button-container" onClick={() => router.push('/comment-ca-marche')}>
                             <button className="comment-ca-marche-phone">
                                 Comment ça marche ?
                             </button>
@@ -410,7 +414,7 @@ const Marques = () => {
                         <p className="ni-influenceur-phone"><span className="highlight">Ni influenceur, ni star des réseaux sociaux,</span> les <span className="vogz grasBlue">Vogzters</span> sont à l’aise devant la caméra et savent se mettre en scène pour <span className="highlight">répondre à vos briefs</span>  </p>
                     </div>
 
-                    <div className="brief-button-phone-container">
+                    <div className="brief-button-phone-container" onClick={() => router.push('/deposer-un-brief')}>
                         <button className="brief-phone-button">
                             Déposer un brief
                         </button>
@@ -629,7 +633,7 @@ const Marques = () => {
                         <p>Si vous êtes encore là,  <span className="highlight">découvrez...</span></p>
                     </div>
 
-                    <div className="comment-ca-marche-button-container">
+                    <div className="comment-ca-marche-button-container" onClick={() => router.push('/comment-ca-marche')}>
                         <button className="comment-ca-marche-phone">
                             Comment ça marche ?
                         </button>

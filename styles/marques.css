@@ -607,7 +607,7 @@
         display: block;
     }
     .card-container {
-        width: 228px;
+        width: 228px !important;
         height: 379px;
     }
     .card-img-container {
