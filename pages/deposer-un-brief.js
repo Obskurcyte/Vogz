@@ -256,7 +256,42 @@ const DeposerUnBrief = () => {
                                         onChange={props.handleChange('nom')}
                                     />
                                 </div>
-                                <div className="flex-column mb-2">
+                                <div className="flex-column mb-2 popup-material-ui" ref={anchorRef} onClick={handleToggle}>
+                                    <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+                                        {({ TransitionProps, placement }) => (
+                                            <Grow
+                                                {...TransitionProps}
+                                                style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
+                                            >
+                                                <Paper>
+                                                    <ClickAwayListener onClickAway={handleClose}>
+                                                        <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
+                                                            <MenuItem onClick={() => {
+                                                                setValue("Test Produit")
+                                                                handleClose()
+                                                            }}>Test Produit</MenuItem>
+                                                            <MenuItem onClick={() => {
+                                                                setValue("Témoignage")
+                                                                handleClose()
+                                                            }}>Témoignage</MenuItem>
+                                                            <MenuItem onClick={() => {
+                                                                setValue("Acting")
+                                                                handleClose()
+                                                            }}>Acting</MenuItem>
+                                                            <MenuItem onClick={() => {
+                                                                setValue("Créativité")
+                                                                handleClose()
+                                                            }}>Créativité</MenuItem>
+                                                            <MenuItem onClick={() => {
+                                                                setValue("Chorégraphie/Chant")
+                                                                handleClose()
+                                                            }}>Chorégraphie/Chant</MenuItem>
+                                                        </MenuList>
+                                                    </ClickAwayListener>
+                                                </Paper>
+                                            </Grow>
+                                        )}
+                                    </Popper>
                                     <div>
                                         <label htmlFor="prenom" className="label-brief">Prénom</label>
                                     </div>
