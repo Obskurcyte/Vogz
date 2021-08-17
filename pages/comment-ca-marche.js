@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from "../components/Header";
 import HeaderMarque from "../components/HeaderMarque";
 import Footer from "../components/Footer";
@@ -7,6 +7,84 @@ import HeaderCommentCaMarcheMobile from "../components/HeaderCommentCaMarcheMobi
 import FooterMobile from "../components/FooterMobile";
 
 const CommentCaMarche = () => {
+
+
+
+    const [backgroundColor, setBackgroundColor] = useState('#51D3F4')
+    const TypeWriter = function (txtElement, words, wait = 4000) {
+        this.txtElement = txtElement;
+        this.words = words;
+        this.txt = '';
+        this.wordIndex = 0;
+        this.wait = parseInt(wait, 10)
+        this.type();
+        this.isDeleting = false;
+    }
+
+    // Type Method
+    TypeWriter.prototype.type = function () {
+        // Current index of word
+        const current = this.wordIndex % this.words.length
+        // Get full text of current word
+        const fullTxt = this.words[current]
+        console.log('full', fullTxt)
+       /* if (fullTxt === 'Eveniet, facilis Eveniet, facilis Eveniet, facilis') {
+            setBackgroundColor('#FB87FB')
+        }
+        if (fullTxt === 'Atque consequatur dolores eligendi explicabo libero magnam nostrum placeat quaerat quo sequi') {
+            setBackgroundColor('#FCD81A')
+        }
+
+        */
+        // Check if deleting
+        if (this.isDeleting) {
+            // Remove char
+            this.txt = fullTxt.substring(0, this.txt.length - 1)
+        } else {
+            // Add char
+            this.txt = fullTxt.substring(0, this.txt.length + 1)
+        }
+
+        // Insert txt into element
+        this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`
+
+        //Type Speed
+        let typeSpeed = 100;
+
+        if (this.isDeleting) {
+            typeSpeed /= 2
+        }
+
+        // If word is complete
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            //Make pause at end
+            typeSpeed = this.wait;
+            // Set delete to true
+            this.isDeleting = true
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            // Move to the next word
+            this.wordIndex++;
+            // Pause before start typing
+            typeSpeed = 300
+        }
+
+        setTimeout(() => this.type(), typeSpeed)
+    }
+
+    //Init on DOM Load
+    useEffect(() => {
+        init()
+    })
+
+    function init() {
+        const txtElement = document.querySelector('.txt-type');
+        const words = JSON.parse(txtElement.getAttribute('data-words'));
+        const wait = txtElement.getAttribute('data-wait');
+
+        new TypeWriter(txtElement, words, wait)
+    }
 
     return (
         <div>
@@ -27,9 +105,15 @@ const CommentCaMarche = () => {
                     </div>
                 </div>
 
-                <div className="light-blue-container">
+                <div className="light-blue-container" style={{backgroundColor: backgroundColor}}>
                     <div className="lorem-container">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        <h2
+                            className="txt-type"
+                            data-wait="5000"
+                            data-words='["Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Eveniet, facilis Eveniet, facilis Eveniet, facilis", "Atque consequatur dolores eligendi explicabo libero magnam nostrum placeat quaerat quo sequi"]'
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </h2>
                     </div>
                     <div className="logo-marche-container">
                         <img src={'/logo-marche.png'} alt=""/>

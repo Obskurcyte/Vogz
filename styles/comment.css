@@ -1,5 +1,4 @@
 .light-blue-container {
-    background-color: #51D3F4;
     width: 50%;
 }
 
@@ -308,6 +307,9 @@
     width: 100%;
 }
 
+.txt-type > .txt {
+    border-right: 3px solid white;
+}
 
 /* ////////////// Phone Style ////////////////// */
 
@@ -464,6 +466,10 @@
         width: 347px;
         margin: 0 auto;
         text-align: center;
+    }
+    .card-phone-text-container {
+        width: 184px;
+        margin: 0 auto;
     }
     .inner-process1 {
         width: 225px;

@@ -264,7 +264,7 @@ const Marques = () => {
                 <section className="part5-marque">
                     <div className="flex-around row-card">
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container1">
                                 <img src={'/time.png'} alt="" className="card-img" />
                             </div>
                             <h5>Gagner du temps</h5>
@@ -272,7 +272,7 @@ const Marques = () => {
                         </div>
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container2">
                                 <img src={'/group.png'} alt="" className="card-img" />
                             </div>
                             <h5>Un contenu de qualité</h5>
@@ -280,7 +280,7 @@ const Marques = () => {
                         </div>
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container3">
                                 <img src={'/author.png'} alt="" className="card-img" />
                             </div>
                             <h5>Les droits d'auteurs</h5>
@@ -290,7 +290,7 @@ const Marques = () => {
 
                     <div className="flex-around row-card">
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container4">
                                 <img src={'/light.png'} alt="" className="card-img" />
                             </div>
                             <h5>Des propositions riches</h5>
@@ -298,7 +298,7 @@ const Marques = () => {
                         </div>
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container5">
                                 <img src={'/handshake.png'} alt="" className="card-img" />
                             </div>
                             <h5>Un encadrement</h5>
@@ -306,7 +306,7 @@ const Marques = () => {
                         </div>
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-container6">
                                 <img src={'/euro.png'} alt="" className="card-img" />
                             </div>
                             <h5>Des économies</h5>
@@ -567,61 +567,73 @@ const Marques = () => {
                     <Slider {...settingSliderCenter}>
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container1">
                                 <img src={'/time.png'} alt="" className="card-img" />
                             </div>
                             <h5>Gagner du temps</h5>
-                            <p className="grey"><span className="highlight">8 jours</span> 8 jours c’est le temps moyen pour obtenir vos <span className="vogz grasBlue">VOGZ</span> prêtes à être partagées ! </p>
+                            <div className="card-phone-text-container">
+                                <p className="grey"><span className="highlight">8 jours</span> 8 jours c’est le temps moyen pour obtenir vos <span className="vogz grasBlue">VOGZ</span> prêtes à être partagées ! </p>
+                            </div>
                         </div>
 
 
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container2">
                                 <img src={'/group.png'} alt="" className="card-img" />
                             </div>
                             <h5>Un contenu de qualité</h5>
-                            <p className="grey">Tous nos <span className="vogz grasBlue">Vogzters</span> sont <span className="highlight">sélectionnés</span> et respectent notre <span className="highlight">charte qualité</span></p>
+                            <div className="card-phone-text-container">
+                                <p className="grey">Tous nos <span className="vogz grasBlue">Vogzters</span> sont <span className="highlight">sélectionnés</span> et respectent notre <span className="highlight">charte qualité</span></p>
+                            </div>
                         </div>
 
 
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container3">
                                 <img src={'/author.png'} alt="" className="card-img" />
                             </div>
                             <h5>Les droits d'auteurs</h5>
-                            <p className="grey">Vous êtes totalement <span className="highlight">propriétaire</span> du contenu </p>
+                            <div className="card-phone-text-container">
+                                <p className="grey">Vous êtes totalement <span className="highlight">propriétaire</span> du contenu </p>
+                            </div>
                         </div>
 
 
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container4">
                                 <img src={'/light.png'} alt="" className="card-img" />
                             </div>
                             <h5>Des propositions riches</h5>
-                            <p className="grey">Obtenez un <span className="highlight">grand nombre de propositions</span> pour faire votre choix</p>
+                            <div className="card-phone-text-container">
+                                <p className="grey">Obtenez un <span className="highlight">grand nombre de propositions</span> pour faire votre choix</p>
+                            </div>
                         </div>
 
 
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container5">
                                 <img src={'/handshake.png'} alt="" className="card-img" />
                             </div>
                             <h5>Un encadrement</h5>
-                            <p className="grey">Un process <span className="highlight">cadré</span> et centralisé sur <span className="highlight">une plateforme</span> en ligne</p>
+                            <div className="card-phone-text-container">
+                                <p className="grey">Un process <span className="highlight">cadré</span> et centralisé sur <span className="highlight">une plateforme</span> en ligne</p>
+                            </div>
                         </div>
 
 
 
                         <div className="card-container">
-                            <div className="card-img-container">
+                            <div className="card-img-mobile-container6">
                                 <img src={'/euro.png'} alt="" className="card-img" />
                             </div>
                             <h5>Des économies</h5>
-                            <p className="grey"><span className="highlight">10x moins chère</span> qu’un studio créa</p>
+                            <div className="card-phone-text-container">
+                                <p className="grey"><span className="highlight">10x moins chère</span> qu’un studio créa</p>
+                            </div>
                         </div>
 
                     </Slider>

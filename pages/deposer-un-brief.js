@@ -100,7 +100,7 @@ const DeposerUnBrief = () => {
                                 }}
                             >
                                 {props => (
-                                    <div>
+                                    <div className="proposer-brief-form-container">
                                         <div className="flex justify-content-between nom-prenom">
                                             <div className="flex-column">
                                                 <div>
@@ -179,7 +179,7 @@ const DeposerUnBrief = () => {
                                             </div>
                                             <input
                                                 type="text"
-                                                className="type-video-container"
+                                                className="other-input-container"
                                                 name="nomSociete"
                                                 value={props.values.nomSociete}
                                                 onChange={props.handleChange('nomSociete')}
@@ -194,7 +194,7 @@ const DeposerUnBrief = () => {
                                             <input
                                                 type="text"
                                                 name="email"
-                                                className="type-video-container"
+                                                className="other-input-container"
                                                 value={props.values.email}
                                                 onChange={props.handleChange('email')}
                                             />
